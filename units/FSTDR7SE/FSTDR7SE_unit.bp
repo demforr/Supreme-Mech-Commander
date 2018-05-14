@@ -66,8 +66,8 @@ UnitBlueprint {
         Health = 310,
         MaxHealth = 310,
         RegenRate = 0,
-        SubThreatLevel = 1737,
-        SurfaceThreatLevel = 1737,
+        SubThreatLevel = 1809,
+        SurfaceThreatLevel = 1809,
     },
     Description = '<LOC FSTDR7SE_desc>Thunderbolt TDR-7SE',
     Display = {
@@ -110,8 +110,8 @@ UnitBlueprint {
         UniformScale = 0.30,
     },
     Economy = {
-        BuildCostEnergy = 17370,
-        BuildCostMass = 1737,
+        BuildCostEnergy = 18090,
+        BuildCostMass = 1809,
         BuildTime = 3400,
         TeleportEnergyMod = 0.15,
         TeleportMassMod = 1,
