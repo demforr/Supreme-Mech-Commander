@@ -49,7 +49,7 @@ UnitBlueprint {
         'BUILTBYTIER1FACTORY',
         'BUILTBYTIER2FACTORY',
         'BUILTBYTIER3FACTORY',
-        'FS',
+        'LA',
         'MOBILE',
         'LAND',
         'TECH1',

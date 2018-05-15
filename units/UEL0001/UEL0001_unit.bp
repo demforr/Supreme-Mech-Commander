@@ -167,6 +167,7 @@ UnitBlueprint {
         BuildTime = 34000,
         BuildableCategory = {
             'BUILTBYTIER1FACTORY FS MOBILE LAND',
+            'BUILTBYTIER1FACTORY LA MOBILE LAND',
             'BUILTBYTIER1FACTORY SR MOBILE LAND',
             'BUILTBYTIER1FACTORY HH MOBILE LAND',
             'UEL0001UPGRADE',
@@ -187,6 +188,15 @@ UnitBlueprint {
             BuildableCategoryAdds = 'BUILTBYTIER1FACTORY FS MOBILE LAND',
             Icon = 'aes',
             Name = '<LOC enhancements_9990>FedSun Command',
+            Slot = 'LCH',
+        },
+        LyranAllianceCommand = {
+            BuildCostEnergy = 1800,
+            BuildCostMass = 72,
+            BuildTime = 9,
+            BuildableCategoryAdds = 'BUILTBYTIER1FACTORY LA MOBILE LAND',
+            Icon = 'aes',
+            Name = '<LOC enhancements_9990>Lyran Alliance Command',
             Slot = 'LCH',
         },
 #        AdvancedEngineeringRemove = {
@@ -294,7 +304,7 @@ UnitBlueprint {
         Icon = 'Air',
         SelectionPriority = 4,
         TechLevel = 'RULEUTL_Experimental',
-        UnitName = '<LOC UEL0001_name>Experimental Lee Command Dropship',
+        UnitName = '<LOC UEL0001_name>Lee Command Dropship',
         UnitWeight = 1,
     },
     Intel = {
@@ -305,7 +315,7 @@ UnitBlueprint {
         WaterVisionRadius = 32,
     },
     Interface = {
-        HelpText = '<LOC UEL0001_help>FedSun Command Dropship',
+        HelpText = '<LOC UEL0001_help> Command Dropship',
     },
     LifeBarHeight = 0.075,
     LifeBarOffset = 4.35,

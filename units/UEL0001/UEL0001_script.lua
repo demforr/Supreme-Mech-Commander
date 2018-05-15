@@ -53,6 +53,7 @@ UEL0001 = Class(AAirUnit) {
         self:SetupBuildBones()
         # Restrict what enhancements will enable later
         self:AddBuildRestriction( categories.FS * (categories.BUILTBYTIER1FACTORY + categories.BUILTBYTIER2FACTORY + categories.MOBILE + categories.LAND) )
+        self:AddBuildRestriction( categories.LA * (categories.BUILTBYTIER1FACTORY + categories.BUILTBYTIER2FACTORY + categories.MOBILE + categories.LAND) )
         self:AddBuildRestriction( categories.SR * (categories.BUILTBYTIER1FACTORY + categories.MOBILE + categories.LAND) )
         self:AddBuildRestriction( categories.HH * (categories.BUILTBYTIER1FACTORY + categories.MOBILE + categories.LAND) )
     end,
@@ -181,10 +182,17 @@ UEL0001 = Class(AAirUnit) {
         AAirUnit.OnUnpaused(self)
     end,   
 
+###Faction upgrades via Dropship####
+
     CreateEnhancement = function(self, enh)
         AAirUnit.CreateEnhancement(self, enh)
-        #T2 Engineering
+
         if enh =='AdvancedEngineering' then
+            local bp = self:GetBlueprint().Enhancements[enh]
+            if not bp then return end
+            local cat = ParseEntityCategory(bp.BuildableCategoryAdds)
+            self:RemoveBuildRestriction(cat)
+        elseif enh =='LyranAllianceCommand' then
             local bp = self:GetBlueprint().Enhancements[enh]
             if not bp then return end
             local cat = ParseEntityCategory(bp.BuildableCategoryAdds)
