@@ -96,7 +96,7 @@ UnitBlueprint {
             '<LOC ability_hover>Hover',
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
-            'Advance Vehicle Sensor 900 Range',
+            'Advance Vehicle Sensor 900m Range',
             '<LOC ability_omni>Omni',
             'BAP 525m Range',
             '1x Medium Laser [Range: 240m]',
