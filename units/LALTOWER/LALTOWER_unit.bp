@@ -24,6 +24,8 @@ UnitBlueprint {
         'BUILTBYTIER2ENGINEER',
         'BUILTBYTIER3ENGINEER',
         'LA',
+        'FS',
+        'HH',
         'STRUCTURE',
         'INTELLIGENCE',
         'TECH1',
