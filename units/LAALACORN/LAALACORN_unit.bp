@@ -178,11 +178,11 @@ UnitBlueprint {
         TransportClass = 2,
     },
     Veteran = {
-        Level1 = 5,
-        Level2 = 10,
-        Level3 = 20,
-        Level4 = 40,
-        Level5 = 80,
+        Level1 = 1,
+        Level2 = 1,
+        Level3 = 1,
+        Level4 = 1,
+        Level5 = 1,
     },
     Weapon = {
         {
@@ -203,7 +203,7 @@ UnitBlueprint {
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water',
             },
-            FiringRandomness = 0.3,
+            FiringRandomness = 1.5,
             FiringRandomnessWhileMoving = 1.5,
             FiringTolerance = 1,
             Label = 'FrontTurret01',
