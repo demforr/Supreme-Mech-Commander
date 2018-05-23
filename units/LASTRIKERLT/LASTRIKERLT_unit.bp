@@ -97,23 +97,6 @@ UnitBlueprint {
                         Type = 'GroundKickup01',
                     },
                 },
-                Treads = {
-                    ScrollTreads = true,
-                    TreadMarks = {
-                        {
-                            BoneName = 'LASTRIKERLT_lod0',
-                            TreadMarks = 'tank_treads_albedo',
-                            TreadMarksInterval = 0.2,
-                            TreadMarksSizeX = 0.65,
-                            TreadMarksSizeZ = 0.5,
-                            TreadOffset = {
-                                0,
-                                0,
-                                0,
-                            },
-                        },
-                    },
-                },
             },
         },
         PlaceholderMeshName = 'UXL0001',
