@@ -2,7 +2,7 @@ UnitBlueprint {
     AI = {
         GuardRadius = 10,
         TargetBones = {
-            'FSHARASSER',
+            'Body',
         },
     },
     Audio = {
@@ -102,7 +102,7 @@ UnitBlueprint {
                 Effects = {
                     {
                         Bones = {
-                            'FSHARASSER',
+                            'Body',
                         },
                         Offset = {
                             0,
@@ -118,7 +118,7 @@ UnitBlueprint {
                 Effects = {
                     {
                         Bones = {
-                            'FSHARASSER',
+                            'Body',
                         },
                         Offset = {
                             0,
@@ -129,7 +129,7 @@ UnitBlueprint {
                     },
                     {
                         Bones = {
-                            'FSHARASSER',
+                            'Body',
                         },
                         Offset = {
                             0,
@@ -162,7 +162,7 @@ UnitBlueprint {
                     },
                     {
                         Bones = {
-                            'FSHARASSER',
+                            'Body',
                         },
                         Offset = {
                             0,
@@ -191,14 +191,14 @@ UnitBlueprint {
                     },
                     {
                         Bones = {
-                            'FSHARASSER',
+                            'BackWake',
                         },
                         Scale = 0.3,
                         Type = 'BackWake',
                     },
                     {
                         Bones = {
-                            'FSHARASSER',
+                            'Body',
                         },
                         Offset = {
                             0,
@@ -378,7 +378,7 @@ UnitBlueprint {
             TrackingRadius = 1.4,
             TurretBoneMuzzle = 'SRM01',
             TurretBonePitch = 'Turret',
-            TurretBoneYaw = 'Turret',
+            TurretBoneYaw = 'Turret_Ring',
             TurretDualManipulators = false,
             TurretPitch = 25,
             TurretPitchRange = 50,
