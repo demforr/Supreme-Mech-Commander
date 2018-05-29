@@ -2,7 +2,7 @@ UnitBlueprint {
     AI = {
         GuardRadius = 10,
         TargetBones = {
-            'UEL0204',
+            'UEL0204_LOD0',
         },
     },
     Audio = {
