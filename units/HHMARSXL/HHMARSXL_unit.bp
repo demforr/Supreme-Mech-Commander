@@ -162,7 +162,7 @@ UnitBlueprint {
             Max = 77,
             Min = 0,
         },
-        JammerBlips = 5,
+        JammerBlips = 50,
     },
     Interface = {
         HelpText = '<LOC HHMARSXL_help>Mars XL Assault Vehicle',

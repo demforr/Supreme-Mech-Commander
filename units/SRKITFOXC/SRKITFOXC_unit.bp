@@ -156,7 +156,7 @@ UnitBlueprint {
             Max = 77,
             Min = 0,
         },
-        JammerBlips = 5,
+        JammerBlips = 50,
         WaterVisionRadius = 37.5,
     },
     Interface = {

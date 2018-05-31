@@ -145,10 +145,10 @@ UnitBlueprint {
         RadarRadius = 105,
         VisionRadius = 45,
         JamRadius = {
-            Max = 157.5,
-            Min = 157.5,
+            Max = 157,
+            Min = 157,
         },
-        JammerBlips = 5,
+        JammerBlips = 50,
         WaterVisionRadius = 37.5,
     },
     Interface = {
