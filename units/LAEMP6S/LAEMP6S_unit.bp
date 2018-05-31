@@ -46,7 +46,6 @@ UnitBlueprint {
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
-        'BUILTBYTIER1FACTORY', 
         'BUILTBYTIER2FACTORY',        
         'BUILTBYTIER3FACTORY',
         'LA',
@@ -109,7 +108,7 @@ UnitBlueprint {
         },
         PlaceholderMeshName = 'UXL0001',
         SpawnRandomRotation = false,
-        UniformScale = 0.6,
+        UniformScale = 0.7,
     },
     Economy = {
         BuildCostEnergy = 20650,

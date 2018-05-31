@@ -83,7 +83,7 @@ UnitBlueprint {
             '1x ERPPC',
         },
         AnimationWalk = '/Mods/Supreme Mech Commander/units/FSAGS2D/FSAGS2D_walk.sca',
-        AnimationWalkRate = 2,
+        AnimationWalkRate = 2.8,
         Mesh = {
             IconFadeInZoom = 100,
             LODs = {
@@ -153,7 +153,7 @@ UnitBlueprint {
         DragCoefficient = 0.2,
         MaxAcceleration = 1.5,
         MaxBrake = 1.08,
-        MaxSpeed = 2.16,
+        MaxSpeed = 2.88,
         MaxSpeedReverse = 0,
         MaxSteerForce = 6,
         MeshExtentsX = 1.1,
