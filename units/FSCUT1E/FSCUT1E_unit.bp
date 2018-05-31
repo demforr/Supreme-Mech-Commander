@@ -229,13 +229,13 @@ UnitBlueprint {
     },
     Intel = {
         JamRadius = {
-            Max = 70,
-            Min = 70,
+            Max = 157.5,
+            Min = 157.5,
         },
         JammerBlips = 5,
-        RadarRadius = 94,
-        OmniRadius = 52.5,
-        VisionRadius = 15,
+        RadarRadius = 141,
+        OmniRadius = 141,
+        VisionRadius = 22.5,
     },
     Interface = {
         HelpText = '<LOC FSCUT1E_help>Cutlas Harrasser',

@@ -129,9 +129,9 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 70,
-        VisionRadius = 30,
-        WaterVisionRadius = 25,
+        RadarRadius = 105,
+        VisionRadius = 45,
+        WaterVisionRadius = 37.5,
     },
     Interface = {
         HelpText = '<LOC FSSD1O_help>Sunder SD1-O',

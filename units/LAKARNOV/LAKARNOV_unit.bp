@@ -222,7 +222,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        VisionRadius = 15,
+        VisionRadius = 22.5,
     },
     Interface = {
         HelpText = '<LOC LAKARNOV_help>Karnov',

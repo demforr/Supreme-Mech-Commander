@@ -158,11 +158,11 @@ UnitBlueprint {
     },
     Intel = {
         JamRadius = {
-            Max = 70,
-            Min = 70,
+            Max = 157.5,
+            Min = 157.5,
         },
         JammerBlips = 5,
-        VisionRadius = 25,
+        VisionRadius = 37.5,
     },
     Interface = {
         HelpText = '<LOC LAGURTELTIERMBT_help>Gurteltier MBT Heavy Tank',

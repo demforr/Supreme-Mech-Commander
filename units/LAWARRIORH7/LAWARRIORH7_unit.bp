@@ -213,7 +213,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        VisionRadius = 15,
+        VisionRadius = 22.5,
     },
     Interface = {
         HelpText = '<LOC LAWARRIORH7_help>Warrior',

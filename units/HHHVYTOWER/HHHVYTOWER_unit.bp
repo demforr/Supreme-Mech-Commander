@@ -114,7 +114,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 120,
+        RadarRadius = 157.5,
         ReactivateTime = 5,
         ShowIntelOnSelect = true,
         VisionRadius = 45,

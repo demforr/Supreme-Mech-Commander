@@ -251,8 +251,8 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 70,
-        VisionRadius = 25,
+        RadarRadius = 105,
+        VisionRadius = 37.5,
     },
     Interface = {
         HelpText = '<LOC LAPEGASUS_help>Scout Hover Tank',

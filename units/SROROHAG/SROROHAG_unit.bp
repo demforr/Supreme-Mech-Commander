@@ -160,7 +160,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        VisionRadius = 25,
+        VisionRadius = 37.5,
     },
     Interface = {
         HelpText = '<LOC SROROHAG_help>Oro Heavy Tank HAG',

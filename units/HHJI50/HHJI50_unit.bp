@@ -214,7 +214,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        VisionRadius = 25,
+        VisionRadius = 37.5,
     },
     Interface = {
         HelpText = '<LOC HHJI50_help>Jifty Field Repair Unit',

@@ -152,7 +152,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        VisionRadius = 25,
+        VisionRadius = 37.5,
     },
     Interface = {
         HelpText = '<LOC FSLRM_help>LRM Carrier',

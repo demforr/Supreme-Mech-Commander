@@ -227,8 +227,8 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 70,
-        VisionRadius = 15,
+        RadarRadius = 105,
+        VisionRadius = 22.5,
     },
     Interface = {
         HelpText = '<LOC LASF1X_help>Interceptor',

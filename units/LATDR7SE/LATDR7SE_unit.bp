@@ -142,14 +142,14 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 70,
-        VisionRadius = 30,
+        RadarRadius = 105,
+        VisionRadius = 45,
         JamRadius = {
-            Max = 70,
-            Min = 70,
+            Max = 157.5,
+            Min = 157.5,
         },
         JammerBlips = 5,
-        WaterVisionRadius = 25,
+        WaterVisionRadius = 37.5,
     },
     Interface = {
         HelpText = '<LOC LATDR7SE_help>Thunderbolt TDR-7SE',

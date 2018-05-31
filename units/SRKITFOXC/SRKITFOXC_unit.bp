@@ -151,13 +151,13 @@ UnitBlueprint {
     },
     Intel = {
         RadarRadius = 98,
-        VisionRadius = 30,
+        VisionRadius = 45,
         JamRadius = {
             Max = 77,
             Min = 0,
         },
         JammerBlips = 5,
-        WaterVisionRadius = 25,
+        WaterVisionRadius = 37.5,
     },
     Interface = {
         HelpText = '<LOC SRKITFOXC_help>Kit Fox C',

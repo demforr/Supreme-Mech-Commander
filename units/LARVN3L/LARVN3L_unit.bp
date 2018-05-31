@@ -130,15 +130,15 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 105,
+        RadarRadius = 157.5,
         OmniRadius = 52.5,
-        VisionRadius = 30,
+        VisionRadius = 45,
         JamRadius = {
-            Max = 70,
-            Min = 70,
+            Max = 157.5,
+            Min = 157.5,
         },
         JammerBlips = 5,
-        WaterVisionRadius = 25,
+        WaterVisionRadius = 37.5,
     },
     Interface = {
         HelpText = '<LOC LARVN3L_help>Raven RVN-3L',

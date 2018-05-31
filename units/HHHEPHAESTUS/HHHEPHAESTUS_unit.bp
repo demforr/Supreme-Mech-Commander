@@ -258,9 +258,9 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 70,
+        RadarRadius = 105,
         OmniRadius = 49,
-        VisionRadius = 25,
+        VisionRadius = 37.5,
         JamRadius = {
             Max = 77,
             Min = 0,
