@@ -2,7 +2,7 @@ UnitBlueprint {
     AI = {
         GuardRadius = 10,
         TargetBones = {
-            'FSJI50ML',
+            'JI50',
         },
     },
     Audio = {
@@ -141,7 +141,7 @@ UnitBlueprint {
                     ScrollTreads = false,
                     TreadMarks = {
                         {
-                            BoneName = 'FSJI50ML',
+                            BoneName = 'JI50',
                             TreadMarks = 'tank_treads_albedo',
                             TreadMarksInterval = 0.3,
                             TreadMarksSizeX = 0.7,
@@ -158,7 +158,7 @@ UnitBlueprint {
         },
         PlaceholderMeshName = 'UXB0000',
         SpawnRandomRotation = false,
-        UniformScale = 0.15,
+        UniformScale = 0.40,
     },
     Economy = {
         BuildCostEnergy = 1216,
@@ -169,6 +169,7 @@ UnitBlueprint {
             'BUILTBYTIER2ENGINEER UEF',
             'BUILTBYTIER2ENGINEER LA',            
         },
+        NeedToFaceTargetToBuild = true,
         MaxBuildDistance = 5,
         StorageEnergy = 0,
         StorageMass = 10,
@@ -180,10 +181,13 @@ UnitBlueprint {
         BuildBones = {
             AimBone = 0,
             BuildEffectBones = {
-                'Arm_Muzzle',
+                'Arm_Muzzle1',
+                'Arm_Muzzle2',
+                'Arm_Muzzle3',
+                'Arm_Muzzle4',
             },
-            PitchBone = 'Arm_Muzzle',
-            YawBone = 'Arm_Muzzle',
+            PitchBone = 'Arm_Muzzle1',
+            YawBone = 'Arm_Muzzle1',
         },
         Category = 'Construction',
         Classification = 'RULEUC_Engineer',
@@ -296,13 +300,13 @@ UnitBlueprint {
             ProjectileId = '/projectiles/ADFLaserLight02/ADFLaserLight02_proj.bp',
             ProjectileLifetimeUsesMultiplier = 2.5,
             ProjectilesPerOnFire = 1,
-            RackBones = {
+             RackBones = {
                 {
                     MuzzleBones = {
-                        'L_ML_Muzzle',
-                        'R_ML_Muzzle',
+                        'L_MG_Muzzle',
+                        'R_MG_Muzzle',
                     },
-                    RackBone = 'ML_Barrel',
+                    RackBone = 'L_MG_Barrel',
                 },
             },
             RackFireTogether = false,
@@ -328,8 +332,8 @@ UnitBlueprint {
             TrackingRadius = 1.15,
             HeadingArcCenter = 0,
             HeadingArcRange = 70,
-            TurretBoneMuzzle = 'L_ML_Muzzle',
-            TurretBonePitch = 'ML_Barrel',
+            TurretBoneMuzzle = 'L_MG_Muzzle',
+            TurretBonePitch = 'L_MG_Barrel',
             TurretBoneYaw = 'Turret',
             TurretDualManipulators = false,
             TurretPitch = 0,
