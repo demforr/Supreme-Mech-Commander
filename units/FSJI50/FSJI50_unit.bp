@@ -2,7 +2,7 @@ UnitBlueprint {
     AI = {
         GuardRadius = 10,
         TargetBones = {
-            'FSJI50',
+            'JI50',
         },
     },
     Audio = {
@@ -117,6 +117,8 @@ UnitBlueprint {
             '<LOC ability_engineeringsuite>Engineering Suite',
             '2x Light Machinegun',
         },
+        #AnimationBuild = '/Mods/Supreme Mech Commander/units/FSJI50_Aopen.sca',
+        #AnimationBuildRate = 5,
         Mesh = {
             IconFadeInZoom = 100,
             LODs = {
@@ -142,7 +144,7 @@ UnitBlueprint {
                     ScrollTreads = false,
                     TreadMarks = {
                         {
-                            BoneName = 'FSJI50',
+                            BoneName = 'JI50',
                             TreadMarks = 'tank_treads_albedo',
                             TreadMarksInterval = 0.3,
                             TreadMarksSizeX = 0.7,
@@ -159,7 +161,7 @@ UnitBlueprint {
         },
         PlaceholderMeshName = 'UXB0000',
         SpawnRandomRotation = false,
-        UniformScale = 0.15,
+        UniformScale = 0.40,
     },
     Economy = {
         BuildCostEnergy = 462,
@@ -170,6 +172,7 @@ UnitBlueprint {
             'BUILTBYTIER1ENGINEER UEF',
             'BUILTBYTIER1ENGINEER FS',
         },
+        NeedToFaceTargetToBuild = true,
         MaxBuildDistance = 5,
         StorageEnergy = 0,
         StorageMass = 10,
@@ -181,10 +184,13 @@ UnitBlueprint {
         BuildBones = {
             AimBone = 0,
             BuildEffectBones = {
-                'Arm_Muzzle',
+                'Arm_Muzzle1',
+                'Arm_Muzzle2',
+                'Arm_Muzzle3',
+                'Arm_Muzzle4',
             },
-            PitchBone = 'Arm_Muzzle',
-            YawBone = 'Arm_Muzzle',
+            PitchBone = 'Arm_Muzzle1',
+            YawBone = 'Arm_Muzzle1',
         },
         Category = 'Construction',
         Classification = 'RULEUC_Engineer',
