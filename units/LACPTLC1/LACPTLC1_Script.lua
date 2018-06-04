@@ -16,7 +16,6 @@ local ADFLaserLightWeapon = import('/lua/aeonweapons.lua').ADFLaserLightWeapon
 LACPTLC1 = Class(TWalkingLandUnit) {
     Weapons = {
     	LRM01 = Class(TSAMLauncher) {},
-    	LRM02 = Class(TSAMLauncher) {},
         ML01 = Class(ADFLaserLightWeapon) {},
         ML02 = Class(ADFLaserLightWeapon) {},
         ML03 = Class(ADFLaserLightWeapon) {},
