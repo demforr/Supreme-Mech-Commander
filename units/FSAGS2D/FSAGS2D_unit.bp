@@ -72,7 +72,7 @@ UnitBlueprint {
         SubThreatLevel = 1566,
         SurfaceThreatLevel = 1566,
     },
-    Description = '<LOC FSAGS2D_desc>Argus AGS-2D',
+    Description = '<LOC FSAGS2D_desc>65 Ton Support Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',
@@ -134,7 +134,7 @@ UnitBlueprint {
         WaterVisionRadius = 25
     },
     Interface = {
-        HelpText = '<LOC FSAGS2D_help>Argus AGS-2D',
+        HelpText = '<LOC FSAGS2D_help>65 Ton Mech',
     },
     LifeBarHeight = 0.075,
     LifeBarOffset = 0.45,
