@@ -79,7 +79,7 @@ UnitBlueprint {
             '<LOC ability_radar>Radar',
             'Basic Mech Sensor 700m Range',
             '3x PPC Min:90m Max:540m',
-            '1x Small Laser',
+            '1x Small Laser Max: 90m',
         },
         AnimationDeath = {
             {
