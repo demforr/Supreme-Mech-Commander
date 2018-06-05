@@ -79,7 +79,7 @@ UnitBlueprint {
             '<LOC ability_radar>Radar',
             'Basic Mech Sensor 700m Range',
             '1x AC20 |-| Max: 270m',
-            '1x LRM20 |-| Min:90 Max:690m',
+            '1x LRM20 |-| Min:180m Max:630m',
             '1x SRM6 |-| Max: 270m',
             '4x Medium Laser |-| Max: 270m (2F 2B)',
         },
