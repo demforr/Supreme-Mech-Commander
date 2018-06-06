@@ -77,7 +77,7 @@ UnitBlueprint {
             '<LOC ability_shielddome>Shield Dome',
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
-            'Basic Mech Sensor 700m Range',
+            'Basic Mech Sensor |-| 1050m Range',
             '2x SRM4 |-| Max: 270m',
             '1x LBX10 |-| Max: 540m',
             '1x ER Large Laser |-| Max: 570m',

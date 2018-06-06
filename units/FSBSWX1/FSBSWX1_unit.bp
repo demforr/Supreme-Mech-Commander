@@ -76,7 +76,7 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
-            'Basic Mech Sensor 700m Range',
+            'Basic Mech Sensor |-| 1050m Range',
             '2x LRM5 |-| Min: 180m Max: 630m',
             '1x AC10 |-| Max: 450m',
             '1x ER Large Laser |-| Max: 570m',
