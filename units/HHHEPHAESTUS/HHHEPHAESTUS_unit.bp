@@ -101,7 +101,7 @@ UnitBlueprint {
             '<LOC ability_hover>Hover',
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
-            'Basic Vehicle Sensor 700 Range',
+            'Basic Vehicle Sensor |-| 1050m Range',
             '<LOC ability_omni>Omni',
             'BAP 490m Range',
             '<LOC ability_jamming>Jammer',

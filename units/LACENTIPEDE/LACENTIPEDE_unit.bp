@@ -96,9 +96,9 @@ UnitBlueprint {
             '<LOC ability_hover>Hover',
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
-            'Advance Vehicle Sensor 900m Range',
+            'Advance Vehicle Sensor |-| 1410m Range',
             '<LOC ability_omni>Omni',
-            'BAP 525m Range',
+            'Beagle Active Probe |-| 1410m Range',
             '1x Medium Laser [Range: 240m]',
         },
         IdleEffects = {
