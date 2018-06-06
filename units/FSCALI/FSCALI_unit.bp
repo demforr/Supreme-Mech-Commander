@@ -58,12 +58,12 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 426,
     },
-    Description = '<LOC FSCALI_desc>Calliope Turret',
+    Description = '<LOC FSCALI_desc>Defensive Turret',
     Display = {
         Abilities = {
-            '2x LRM15',
-            '1x Medlum Pluse Laser',
-            '1x Large Pulse Laser',
+            '2x LRM15 |-| Min: 180m Max: 630m',
+            '1x Medlum Pluse Laser |-| Max: 180',
+            '1x Large Pulse Laser |-| Max: 300',
         },
         Mesh = {
             IconFadeInZoom = 130,
@@ -112,7 +112,7 @@ UnitBlueprint {
         Icon = 'land',
         SelectionPriority = 5,
         TechLevel = 'RULEUTL_Advanced',
-        UnitName = '<LOC FSCALI_name>Turret Control Tower',
+        UnitName = '<LOC FSCALI_name>Calliope Turret',
         UnitWeight = 1,
     },
     Intel = {

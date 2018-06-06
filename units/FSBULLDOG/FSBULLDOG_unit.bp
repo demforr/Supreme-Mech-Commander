@@ -1,4 +1,4 @@
-UnitBlueprint {
+    UnitBlueprint {
     AI = {
         GuardRadius = 10,
         TargetBones = {
@@ -70,12 +70,12 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 605,
     },
-    Description = '<LOC FSBULLDOG_desc>Bulldog Medium Tank',
+    Description = '<LOC FSBULLDOG_desc>60 Ton Heavy Tank',
     Display = {
         Abilities = {
-            '1x Large Laser',
-            '2x SRM4',
-            '1x MG',
+            '1x Large Laser |-| Max: 450m',
+            '2x SRM4 |-| Max: 270m',
+            '1x MG |-| Max: 90m',
         },
         Mesh = {
             IconFadeInZoom = 100,
@@ -149,14 +149,14 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'land',
         TechLevel = 'RULEUTL_Basic',
-        UnitName = '<LOC FSBULLDOG_name>Bulldog',
+        UnitName = '<LOC FSBULLDOG_name>Bulldog Main Battle Tank',
         UnitWeight = 1,
     },
     Intel = {
         VisionRadius = 37.5,
     },
     Interface = {
-        HelpText = '<LOC FSBULLDOG_help>Bulldog Medium Tank',
+        HelpText = '<LOC FSBULLDOG_help>Bulldog MBT',
     },
     LifeBarHeight = 0.075,
     LifeBarOffset = 0.5,

@@ -99,7 +99,7 @@ UnitBlueprint {
             'Advance Vehicle Sensor 900m Range',
             '<LOC ability_omni>Omni',
             'BAP 525m Range',
-            '1x Medium Laser [Range: 240m]',
+            '1x Medium Laser |-| Max: 270m',
         },
         IdleEffects = {
             Land = {
@@ -246,7 +246,7 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'amph',
         TechLevel = 'RULEUTL_Advanced',
-        UnitName = '<LOC FSCENTIPEDE_name>Centipede',
+        UnitName = '<LOC FSCENTIPEDE_name>Centipede Scout Car',
         UnitWeight = 1,
     },
     Intel = {

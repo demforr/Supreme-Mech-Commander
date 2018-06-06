@@ -71,15 +71,15 @@ UnitBlueprint {
         SubThreatLevel = 945,
         SurfaceThreatLevel = 945,
     },
-    Description = '<LOC FSBSWX1_desc>Centurion CM9-A',
+    Description = '<LOC FSBSWX1_desc>50 Ton Medium Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
             'Basic Mech Sensor 700m Range',
-            '1x AC10',
-            '1x LRM10',
-            '2x Medium Laser',
+            '1x AC10 |-| Max: 450m',
+            '1x LRM10 |-| Min: 180m Max: 630m',
+            '2x Medium Laser |-| Max: 270m',
         },
         AnimationWalk = '/Mods/Supreme Mech Commander/units/FSCENTURION/FSCENTURION_walk.sca',
         AnimationWalkRate = 3.5,
@@ -125,7 +125,7 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'amph',
         TechLevel = 'RULEUTL_Basic',
-        UnitName = '<LOC FSCENTURION_name>Centurion CM9-A',
+        UnitName = '<LOC FSCENTURION_name>Centurion CN9-A',
         UnitWeight = 1,
     },
     Intel = {
