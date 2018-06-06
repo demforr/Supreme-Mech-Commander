@@ -100,7 +100,7 @@ UnitBlueprint {
             },
         },
         AnimationWalk = '/Mods/Supreme Mech Commander/units/LAFNR5/LAFNR5_walk.sca',
-        AnimationWalkRate = 4.5,
+        AnimationWalkRate = 2,
         Mesh = {
             IconFadeInZoom = 100,
             LODs = {
