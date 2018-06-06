@@ -76,7 +76,7 @@ UnitBlueprint {
             '<LOC ability_radar>Radar',
             'Basic Mech Sensor |-| 1050m Range',
             '<LOC ability_jamming>Jammer',
-            'ECM 1570m Range', 
+            'Guardian ECM Suite |-| 1570m Range', 
             '4x Medium Pulse Laser',
             '1x Gauss Rifle',
         },

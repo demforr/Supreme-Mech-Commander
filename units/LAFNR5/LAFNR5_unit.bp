@@ -78,9 +78,9 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
-            'Basic Mech Sensor 1050m Range',
+            'Basic Mech Sensor |-| 1050m Range',
             '<LOC ability_jamming>Jammer',
-            'ECM 1570m Range',
+            'Guardian ECM Suite |-| 1570m Range',
             '2x Heavy Gauss Rifle ',
             '2x ER Medium Laser',
             '1x Medium Pulse Laser',
@@ -149,6 +149,11 @@ UnitBlueprint {
     Intel = {
         RadarRadius = 105,
         VisionRadius = 45,
+        JamRadius = {
+            Max = 157,
+            Min = 157,
+        },
+        JammerBlips = 50,
         WaterVisionRadius = 25,
     },
     Interface = {

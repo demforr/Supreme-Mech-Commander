@@ -78,7 +78,7 @@ UnitBlueprint {
             '<LOC ability_omni>Omni',
             'BAP 525m Range',
             '<LOC ability_jamming>Jammer',
-            'ECM 1570m Range',            
+            'Guardian ECM Suite |-| 1570m Range',            
             '3x Medium Laser [Range: 240m]',
             '1x SRM6 [Range: 240m]',
         },

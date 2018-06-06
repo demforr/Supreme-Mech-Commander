@@ -78,7 +78,7 @@ UnitBlueprint {
             '<LOC ability_radar>Radar',
             'Intermediate Mech Sensor |-| 1410m Range',
             '<LOC ability_omni>Omni',
-            'BAP 525 Range',
+            'Beagle Active Probe |-| 1410m Range',
             '2x PPC',
             '1x SRM6',
             '2x Machine Gun',

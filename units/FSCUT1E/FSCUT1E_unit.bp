@@ -121,9 +121,9 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
             '<LOC ability_radar>Radar',
-            'Intermediate Vehicle Sensor 940m',
-            'Guardian ECM Suite',
-            'BAP 525m',
+            'Intermediate Vehicle Sensor |-| 1410m Range',
+            'Guardian ECM Suite |-| 1570m Range',
+            'Beagle Active Probe |-| 1410m Range',
             '1x ER Large Laser',
             '1x ER ELRM20',
 
