@@ -72,14 +72,14 @@ UnitBlueprint {
         SubThreatLevel = 1605,
         SurfaceThreatLevel = 1605,
     },
-    Description = '<LOC FSASW8Q>Awesome ASW-8Q',
+    Description = '<LOC FSASW8Q>80 Ton Assault Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
             'Basic Mech Sensor 700m Range',
-            '3x PPC Min:90m Max:540m',
-            '1x Small Laser Max: 90m',
+            '3x PPC |-| Min: 90m Max: 540m',
+            '1x Small Laser |-| Max: 90m',
         },
         AnimationDeath = {
             {

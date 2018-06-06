@@ -71,16 +71,16 @@ UnitBlueprint {
         SubThreatLevel = 1223,
         SurfaceThreatLevel = 1223,
     },
-    Description = '<LOC FSBSWS2_desc>Bushwacker BSW-S2',
+    Description = '<LOC FSBSWS2_desc>55 Ton Medium Mech',
     Display = {
         Abilities = {
             '<LOC ability_shielddome>Shield Dome',
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
             'Basic Mech Sensor 700m Range',
-            '2x SRM4',
-            '1x LBX10',
-            '1x ER Large Laser',
+            '2x SRM4 |-| Max: 270m',
+            '1x LBX10 |-| Max: 540m',
+            '1x ER Large Laser |-| Max: 570m',
             '1x Anti Missle System'
         },
         AnimationWalk = '/Mods/Supreme Mech Commander/units/FSBSWS2/FSBSWS2_walk.sca',
