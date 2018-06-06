@@ -90,13 +90,13 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 592,
     },
-    Description = '<LOC FSCONDOR_desc>Condor Heavy Tank',
+    Description = '<LOC FSCONDOR_desc>50 Ton Medium Hover Tank',
     Display = {
         Abilities = {
             '<LOC ability_hover>Hover',
             '<LOC ability_amphibious>Amphibious',
-            'T:2x AC5 [90m Min Range| 540m Max Range]',
-            'F:1x MG  [90m Max Range]',
+            'Turret: 2x AC5 |-| Min: 90m Max: 540m',
+            'Front: 1x MG |-| Max: 90m',
         },
         IdleEffects = {
             Land = {
@@ -243,14 +243,14 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'amph',
         TechLevel = 'RULEUTL_Basic',
-        UnitName = '<LOC FSCONDOR_name>Condor',
+        UnitName = '<LOC FSCONDOR_name>Condor Hover Tank',
         UnitWeight = 1,
     },
     Intel = {
         VisionRadius = 37.5,
     },
     Interface = {
-        HelpText = '<LOC FSCONDOR_help>Condor Heavy Hover Tank',
+        HelpText = '<LOC FSCONDOR_help>Condor Hover Tank',
     },
     LifeBarHeight = 0.075,
     LifeBarOffset = 0.5,

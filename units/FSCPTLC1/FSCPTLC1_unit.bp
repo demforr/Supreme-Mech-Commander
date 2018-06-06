@@ -72,15 +72,15 @@ UnitBlueprint {
         SurfaceThreatLevel = 1399,
         MaxTeleRange = 20,
     },
-    Description = '<LOC FSBSWX1_desc>Catapult CPTL-C1',
+    Description = '<LOC FSBSWX1_desc>65 Ton Heavy Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
             'Basic Mech Sensor 700m Range',
             '120m Jump Range',
-            '2x LRM15',
-            '4x Medium Laser',
+            '2x LRM15 |-| Min: 180m Max: 630m',
+            '4x Medium Laser |-| Max: 270m',
         },
         AnimationWalk = '/Mods/Supreme Mech Commander/units/FSCPTLC1/FSCPTLC1_walk.sca',
         AnimationWalkRate = 5.5,

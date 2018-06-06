@@ -71,7 +71,7 @@ UnitBlueprint {
     Description = '<LOC FSALACORN_desc>100 Ton Assault Tank',
     Display = {
         Abilities = {
-            '3x Gause Rifle |-| Min: 90m Max: 660m',
+            'Turret: 3x Gause Rifle |-| Min: 90m Max: 660m',
         },
         Mesh = {
             IconFadeInZoom = 100,

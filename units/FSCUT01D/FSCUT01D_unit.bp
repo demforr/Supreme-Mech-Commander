@@ -124,9 +124,9 @@ UnitBlueprint {
             'Intermediate Vehicle Sensor 940m',
             'Guardian ECM Suite',
             'BAP 525m',
-            '1x Gauss Rifle',
-            '1x ER Large Laser',
-            '4x ER Medium Laser',
+            '1x Gauss Rifle |-| Min: 90m Max: 660m',
+            '1x ER Large Laser |-| Max: 570m',
+            '4x ER Medium Laser |-| Max: 270m',
         },
         AttackReticuleSize = 4,
         LayerChangeEffects = {
