@@ -231,7 +231,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Clan ERLL',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -307,7 +307,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Particle Cannon',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            

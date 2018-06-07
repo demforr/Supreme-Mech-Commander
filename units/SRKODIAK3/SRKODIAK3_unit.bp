@@ -221,7 +221,7 @@ UnitBlueprint {
             DamageType = 'D_ClusterAmmo',
             DisplayName = 'CLBX20',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
             },            
             FiringRandomness = 0.3,
             FiringRandomnessWhileMoving = 1.5,
@@ -340,7 +340,7 @@ UnitBlueprint {
             DisplayName = 'Clan EMLL',
             LeadTarget = true,
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -425,7 +425,7 @@ UnitBlueprint {
             DisplayName = 'Clan EMLL',
             LeadTarget = true,
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            

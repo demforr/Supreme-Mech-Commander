@@ -183,7 +183,7 @@ UnitBlueprint {
             EnergyDrainPerSecond = 100,
             EnergyRequired = 1000,            
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },            
             FiringRandomness = 0.3,
@@ -272,7 +272,7 @@ UnitBlueprint {
             EnergyDrainPerSecond = 50,
             EnergyRequired = 50,            
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },            
             FiringRandomness = 0.3,
@@ -346,7 +346,7 @@ UnitBlueprint {
             EnergyDrainPerSecond = 30,
             EnergyRequired = 30,
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },            
             FiringRandomness = 0.3,

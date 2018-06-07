@@ -225,7 +225,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Particle Projector Cannon',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
             },            
             FiringRandomness = 0.3,
             FiringRandomnessWhileMoving = 1.5,
@@ -299,7 +299,7 @@ UnitBlueprint {
             DamageType = 'D_ClusterAmmo',
             DisplayName = 'Long Range Missles',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },            
             FiringRandomness = 0.3,
@@ -381,7 +381,7 @@ UnitBlueprint {
             DamageType = 'D_ClusterAmmo',
             DisplayName = 'Short Range Missles',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },            
             FiringRandomness = 0.3,
@@ -457,7 +457,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Medium Laser',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },            
             FiringRandomness = 0.3,

@@ -227,7 +227,7 @@ UnitBlueprint {
             DisplayName = 'Machinegun',
             FireTargetLayerCapsTable = {
                 Air = 'Land|Water|Air',
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
             },            
             FiringRandomness = 0.3,
             FiringRandomnessWhileMoving = 1.5,

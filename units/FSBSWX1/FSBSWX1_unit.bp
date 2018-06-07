@@ -213,7 +213,7 @@ UnitBlueprint {
             DamageType = 'D_ClusterAmmo',
             DisplayName = 'Long Range Missles',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },            
             FiringRandomness = 0.3,
@@ -291,7 +291,7 @@ UnitBlueprint {
             DamageType = 'D_ClusterAmmo',
             DisplayName = 'Long Range Missles',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },            
             FiringRandomness = 0.3,
@@ -370,7 +370,7 @@ UnitBlueprint {
             DamageType = 'D_Ammo',
             DisplayName = 'AC10',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -447,7 +447,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'ERLL',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            

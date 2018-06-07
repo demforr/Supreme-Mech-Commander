@@ -445,7 +445,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Medium Laser',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            

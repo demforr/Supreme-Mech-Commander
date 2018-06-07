@@ -206,7 +206,7 @@ UnitBlueprint {
             DamageType = 'D_Ammo',
             DisplayName = 'AC20',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Land|Water',
             },            
@@ -282,7 +282,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Medium Laser',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -358,7 +358,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Medium Laser',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -434,7 +434,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Medium Laser',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -518,7 +518,7 @@ UnitBlueprint {
             DamageType = 'D_ClusterEnergy',
             DisplayName = 'Short Range Missles',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -594,7 +594,7 @@ UnitBlueprint {
             DamageType = 'D_ClusterEnergy',
             DisplayName = 'Short Range Missles',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -670,7 +670,7 @@ UnitBlueprint {
             DamageType = 'D_ClusterEnergy',
             DisplayName = 'Short Range Missles',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            

@@ -217,7 +217,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Particle Projector Cannon',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Seabed = 'Land|Water',
                 Water = 'Water|Seabed',
             },            
@@ -290,7 +290,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Particle Projector Cannon',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Seabed = 'Land|Water',
                 Water = 'Water|Seabed',
             },            
@@ -364,7 +364,7 @@ UnitBlueprint {
             DamageType = 'D_Ammo',
             DisplayName = 'Machine Guns',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -446,7 +446,7 @@ UnitBlueprint {
             DamageType = 'D_ClusterAmmo',
             DisplayName = 'Short Range Missles',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            

@@ -229,7 +229,7 @@ UnitBlueprint {
             DamageType = 'D_Ammo',
             DisplayName = 'Gauss Rifle',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },            
             FiringRandomness = 0.3,
@@ -305,7 +305,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Particle Cannon',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -378,7 +378,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Particle Cannon',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -451,7 +451,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Particle Cannon',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -524,7 +524,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Particle Cannon',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            

@@ -220,7 +220,7 @@
             DamageType = 'D_Energy',
             DisplayName = 'Large Laser',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },            
             FiringRandomness = 0.3,
@@ -289,7 +289,7 @@
             DamageType = 'D_ClusterAmmo',
             DisplayName = 'Short Range Missles',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },            
             FiringRandomness = 0.3,

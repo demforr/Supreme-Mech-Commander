@@ -225,7 +225,7 @@ UnitBlueprint {
             DamageType = 'D_Ammo',
             DisplayName = 'AC20',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
             },            
             FiringRandomness = 0.3,
             FiringRandomnessWhileMoving = 1.5,
@@ -297,7 +297,7 @@ UnitBlueprint {
             DamageType = 'D_ClusterEnergy',
             DisplayName = 'Long Range Missles',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },            
             FiringRandomness = 0.3,
@@ -374,7 +374,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Small Laser',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            

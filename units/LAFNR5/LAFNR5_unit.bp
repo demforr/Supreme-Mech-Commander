@@ -229,7 +229,7 @@ UnitBlueprint {
             DamageType = 'D_Ammo',
             DisplayName = 'Gauss Cannon',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
             },
             FiringRandomness = 0.3,
             FiringRandomnessWhileMoving = 1.5,
@@ -312,7 +312,7 @@ UnitBlueprint {
             DamageType = 'D_Energy',
             DisplayName = 'Particle Cannon',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -388,7 +388,7 @@ UnitBlueprint {
             DisplayName = 'Medium Laser',
             LeadTarget = true,
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -473,7 +473,7 @@ UnitBlueprint {
         --     DamageType = 'D_Energy',
         --     DisplayName = 'Medium Laser',
         --     FireTargetLayerCapsTable = {
-        --         Land = 'Land|Water',
+        --         Land = 'Land|Water|Air',
         --         Water = 'Land|Water',
         --         Seabed = 'Water|Sub|Seabed',
         --     },            

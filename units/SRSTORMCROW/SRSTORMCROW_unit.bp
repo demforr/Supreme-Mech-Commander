@@ -223,7 +223,7 @@ UnitBlueprint {
             DisplayName = 'Clan ERLL',
             LeadTarget = true,
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -308,7 +308,7 @@ UnitBlueprint {
             DisplayName = 'Clan EMLL',
             LeadTarget = true,
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
@@ -393,7 +393,7 @@ UnitBlueprint {
             DisplayName = 'Clan ERML2',
             LeadTarget = true,
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            

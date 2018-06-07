@@ -353,7 +353,7 @@ UnitBlueprint {
             DamageType = 'D_Ammo',
             DisplayName = 'AC5',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },
             FiringRandomness = 0.3,

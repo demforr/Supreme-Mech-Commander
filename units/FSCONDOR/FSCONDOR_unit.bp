@@ -318,7 +318,7 @@ UnitBlueprint {
             DamageType = 'D_Ammo',
             DisplayName = 'Gauss Cannon',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },
             FiringRandomness = 0.3,
@@ -392,7 +392,7 @@ UnitBlueprint {
             DamageType = 'D_Ammo',
             DisplayName = 'Machinegun',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
             },            
             FiringRandomness = 0.3,

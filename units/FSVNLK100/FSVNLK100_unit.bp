@@ -223,7 +223,7 @@ UnitBlueprint {
             DamageType = 'D_Ammo',
             DisplayName = 'AC20',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
             },            
             FiringRandomness = 0.3,
             FiringRandomnessWhileMoving = 1.5,
@@ -302,7 +302,7 @@ UnitBlueprint {
             DamageType = 'D_ClusterEnergy',
             DisplayName = 'Short Range Missles (SRM6 1)',
             FireTargetLayerCapsTable = {
-                Land = 'Land|Water',
+                Land = 'Land|Water|Air',
                 Water = 'Land|Water',
                 Seabed = 'Water|Sub|Seabed',
             },            
