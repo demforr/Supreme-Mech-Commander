@@ -1,6 +1,6 @@
 #****************************************************************************
 #**
-#**  File     :  /Supreme Mech Commander/units/LSPATTON/LSPATTON_script.lua
+#**  File     :  /Supreme Mech Commander/units/LAPATTON/LAPATTON.lua
 #**  Author(s):  John Comes, David Tomandl, Jessica St. Croix, Kami, FuegoTigre
 #**
 #**  Summary  :  FedSuns Rommel Tank (Standard)
@@ -13,7 +13,7 @@ local CDFLaserHeavyWeapon = import('/lua/cybranweapons.lua').CDFLaserHeavyWeapon
 local TSAMLauncher = import('/lua/terranweapons.lua').TSAMLauncher
 local ADFLaserLightWeapon = import('/lua/aeonweapons.lua').ADFLaserLightWeapon
 
-LSPATTON = Class(TLandUnit) {
+LAPATTON = Class(TLandUnit) {
     Weapons = {
         AC10 = Class(TDFGaussCannonWeapon) {},
         LRM = Class(TSAMLauncher) {},
@@ -21,4 +21,4 @@ LSPATTON = Class(TLandUnit) {
     },
 }
 
-TypeClass = LSPATTON
+TypeClass = LAPATTON

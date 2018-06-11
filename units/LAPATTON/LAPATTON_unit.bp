@@ -3,7 +3,7 @@ UnitBlueprint {
         GuardRadius = 10,
         TargetBones = {
             'Turret',
-            'LSPATTON',
+            'LAPATTON',
         },
     },
     Audio = {

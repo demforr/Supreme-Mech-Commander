@@ -69,7 +69,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
     },
-    Description = '<LOC LAFACTORYAT2_desc>Federated Suns Air Factory',
+    Description = '<LOC LAFACTORYAT2_desc>Lyran Alliance Air Factory',
     Display = {
         Abilities = {
             '<LOC ability_upgradable>Upgradeable',

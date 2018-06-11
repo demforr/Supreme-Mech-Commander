@@ -68,7 +68,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
     },
-    Description = '<LOC LAVFACTORYT2_desc>Federated Suns Vehicle Factory',
+    Description = '<LOC LAVFACTORYT2_desc>Lyran Alliance Vehicle Factory',
     Display = {
         Abilities = {
             '<LOC ability_upgradable>Upgradeable',

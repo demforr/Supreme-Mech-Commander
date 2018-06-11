@@ -73,7 +73,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
     },
-    Description = '<LOC LAFACTORYLT1_desc>Federated Suns Mech Factory',
+    Description = '<LOC LAFACTORYLT1_desc>Lyran Alliance Mech Factory',
     Display = {
         Abilities = {
             '<LOC ability_upgradable>Upgradeable',
