@@ -3,7 +3,7 @@ UnitBlueprint {
         GuardRadius = 10,
         TargetBones = {
             'Turret',
-            'FSPEGASUS',
+            'PEGASUS',
         },
     },
     Audio = {
@@ -107,7 +107,7 @@ UnitBlueprint {
                 Effects = {
                     {
                         Bones = {
-                            'UEL0107_LOD0',
+                            'PEGASUS',
                         },
                         Offset = {
                             0,
@@ -123,7 +123,7 @@ UnitBlueprint {
                 Effects = {
                     {
                         Bones = {
-                            'UEL0107_LOD0',
+                            'PEGASUS',
                         },
                         Offset = {
                             0,
@@ -134,7 +134,7 @@ UnitBlueprint {
                     },
                     {
                         Bones = {
-                            'UEL0107_LOD0',
+                            'PEGASUS',
                         },
                         Offset = {
                             0,
@@ -167,7 +167,7 @@ UnitBlueprint {
                     },
                     {
                         Bones = {
-                            'UEL0107_LOD0',
+                            'PEGASUS',
                         },
                         Offset = {
                             0,
@@ -196,14 +196,14 @@ UnitBlueprint {
                     },
                     {
                         Bones = {
-                            'UEL0107_LOD0',
+                            'PEGASUS',
                         },
                         Scale = 0.3,
                         Type = 'BackWake',
                     },
                     {
                         Bones = {
-                            'UEL0107_LOD0',
+                            'PEGASUS',
                         },
                         Offset = {
                             0,
@@ -217,7 +217,7 @@ UnitBlueprint {
         },
         PlaceholderMeshName = 'UXL0001',
         SpawnRandomRotation = false,
-        UniformScale = 0.125,
+        UniformScale = 0.32,
     },
     Economy = {
         BuildCostEnergy = 2284,
@@ -418,7 +418,7 @@ UnitBlueprint {
                         'Turret_Left_Muzzle03',
                         'Turret_Left_Muzzle04',
                     },
-                    RackBone = 'Turret_Barrel',
+                    RackBone = 'Turret',
                 },
                 {
                     MuzzleBones = {
@@ -427,7 +427,7 @@ UnitBlueprint {
                         'Turret_Right_Muzzle03',
                         'Turret_Right_Muzzle04',
                     },
-                    RackBone = 'Turret_Barrel',
+                    RackBone = 'Turret',
                 },
             },
             RackFireTogether = true,
@@ -451,7 +451,7 @@ UnitBlueprint {
             TargetRestrictDisallow = 'UNTARGETABLE',
             TrackingRadius = 1.4,
             TurretBoneMuzzle = 'Turret_Left_Muzzle01',
-            TurretBonePitch = 'Turret_Barrel',
+            TurretBonePitch = 'Turret',
             TurretBoneYaw = 'Turret',
             TurretDualManipulators = false,
             TurretPitch = 25,
