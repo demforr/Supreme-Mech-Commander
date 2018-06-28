@@ -1,9 +1,9 @@
 #****************************************************************************
 #**
-#**  File     :  /cdimage/units/LAUZL2S/LAUZL2S_script.lua
+#**  File     :  /cdimage/units/FSUZL2S/FSUZL2S_script.lua
 #**  Author(s):  John Comes, David Tomandl, Jessica St. Croix, Kami, FuegoTigre
 #**
-#**  Summary  :  Davion Uziel UZL-2S Script
+#**  Summary  :  Uziel UZL-2S Script
 #**
 #**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************

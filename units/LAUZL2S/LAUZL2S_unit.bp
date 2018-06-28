@@ -70,6 +70,7 @@ UnitBlueprint {
         RegenRate = 0,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1352,
+        MaxTeleRange = 27,
     },
     Description = '<LOC LAUZL2S_desc>Uziel UZL-2S',
     Display = {
@@ -79,6 +80,7 @@ UnitBlueprint {
             'Intermediate Mech Sensor |-| 1410m Range',
             '<LOC ability_omni>Omni',
             'Beagle Active Probe |-| 1410m Range',
+            '180m Jump Range',
             '2x PPC',
             '1x SRM6',
             '2x Machine Gun',
@@ -108,9 +110,9 @@ UnitBlueprint {
         BuildCostEnergy = 13520,
         BuildCostMass = 1352,
         BuildTime = 2500,
-        TeleportEnergyMod = 0.15,
+        TeleportEnergyMod = 0.001,
         TeleportMassMod = 1,
-        TeleportTimeMod = 0.01,
+        TeleportTimeMod = 0.0005,
     },
     General = {
         Category = 'Direct Fire',
@@ -129,6 +131,7 @@ UnitBlueprint {
             RULEUCC_RetaliateToggle = true,
             RULEUCC_Stop = true,
             RULEUCC_Transport = false,
+            RULEUCC_Teleport = true,
         },
         FactionName = 'UEF',
         Icon = 'amph',
@@ -138,9 +141,9 @@ UnitBlueprint {
     },
     Intel = {
         RadarRadius = 141,
-        OmniRadius = = 141,
+        OmniRadius = 141,
         VisionRadius = 45,
-        WaterVisionRadius = 25
+        WaterVisionRadius = 25,
     },
     Interface = {
         HelpText = '<LOC LAUZL2S_help>Uziel UZL-2S',
