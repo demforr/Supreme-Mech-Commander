@@ -78,20 +78,20 @@ UnitBlueprint {
         },
         AnimationFinishBuildLand = '/units/FSFACTORYAT1/FSFACTORYAT1_aplatform.sca',
         AnimationUpgrade = '/units/FSFACTORYAT1/FSFACTORYAT1_aupgrade.sca',
-        BlinkingLights = {
-            {
-                BLBone = 'Tower04',
-                BLOffsetX = 0.25,
-                BLOffsetY = 0.07,
-                BLOffsetZ = 0.6,
-                BLScale = 2,
-            },
-        },
-        BlinkingLightsFx = {
-            Green = '/effects/emitters/light_green_03_emit.bp',
-            Red = '/effects/emitters/light_red_03_emit.bp',
-            Yellow = '/effects/emitters/light_yellow_02_emit.bp',
-        },
+        -- BlinkingLights = {
+        --     {
+        --         BLBone = 'Tower04',
+        --         BLOffsetX = 0.25,
+        --         BLOffsetY = 0.07,
+        --         BLOffsetZ = 0.6,
+        --         BLScale = 2,
+        --     },
+        -- },
+        -- BlinkingLightsFx = {
+        --     Green = '/effects/emitters/light_green_03_emit.bp',
+        --     Red = '/effects/emitters/light_red_03_emit.bp',
+        --     Yellow = '/effects/emitters/light_yellow_02_emit.bp',
+        -- },
         BuildAttachBone = 'Attachpoint',
         Mesh = {
             IconFadeInZoom = 130,
@@ -100,16 +100,10 @@ UnitBlueprint {
                     LODCutoff = 200,
                     ShaderName = 'Unit',
                 },
-                {
-                    AlbedoName = 'FSFACTORYAT1_lod1_albedo.dds',
-                    LODCutoff = 500,
-                    ShaderName = 'Unit',
-                    SpecularName = 'FSFACTORYAT1_lod1_specteam.dds',
-                },
             },
         },
         SpawnRandomRotation = true,
-        UniformScale = 0.1,
+        UniformScale = 0.9,
     },
     Economy = {
         BuildCostEnergy = 2400,
@@ -192,130 +186,130 @@ UnitBlueprint {
         MeshExtentsZ = 5.5,
         MinSpeedPercent = 0,
         MotionType = 'RULEUMT_None',
-        RaisedPlatforms = {
+        -- RaisedPlatforms = {
 
-            # Platform 1
-            # TopLeft Offset From Center
-            -1.6,
+        --     # Platform 1
+        --     # TopLeft Offset From Center
+        --     -1.6,
 
-            # x
-            -2,
+        --     # x
+        --     -2,
 
-            # z
-            0.18,
+        --     # z
+        --     0.18,
 
-            # height
-            # TopRight Offset From Center
-            2,
+        --     # height
+        --     # TopRight Offset From Center
+        --     2,
 
-            # x
-            -2,
+        --     # x
+        --     -2,
 
-            # z
-            0.18,
+        --     # z
+        --     0.18,
 
-            # height
-            # BottomLeft Offset From Center
-            -1.6,
+        --     # height
+        --     # BottomLeft Offset From Center
+        --     -1.6,
 
-            # x
-            1.6,
+        --     # x
+        --     1.6,
 
-            # z
-            0.18,
+        --     # z
+        --     0.18,
 
-            # height
-            # BottomRight Offset From Center
-            2,
+        --     # height
+        --     # BottomRight Offset From Center
+        --     2,
 
-            # x
-            1.6,
+        --     # x
+        --     1.6,
 
-            # z
-            0.18,
+        --     # z
+        --     0.18,
 
-            # height
-            # Platform 2
-            # TopLeft Offset From Center
-            -1.75,
+        --     # height
+        --     # Platform 2
+        --     # TopLeft Offset From Center
+        --     -1.75,
 
-            # x
-            -2,
+        --     # x
+        --     -2,
 
-            # z
-            0,
+        --     # z
+        --     0,
 
-            # height
-            # TopRight Offset From Center
-            -1.6,
+        --     # height
+        --     # TopRight Offset From Center
+        --     -1.6,
 
-            # x
-            -2,
+        --     # x
+        --     -2,
 
-            # z
-            0.18,
+        --     # z
+        --     0.18,
 
-            # height
-            # BottomLeft Offset From Center
-            -1.75,
+        --     # height
+        --     # BottomLeft Offset From Center
+        --     -1.75,
 
-            # x
-            1.6,
+        --     # x
+        --     1.6,
 
-            # z
-            0,
+        --     # z
+        --     0,
 
-            # height
-            # BottomRight Offset From Center
-            -1.6,
+        --     # height
+        --     # BottomRight Offset From Center
+        --     -1.6,
 
-            # x
-            1.6,
+        --     # x
+        --     1.6,
 
-            # z
-            0.18,
+        --     # z
+        --     0.18,
 
-            # height
-            # Platform 3
-            # TopLeft Offset From Center
-            -2,
+        --     # height
+        --     # Platform 3
+        --     # TopLeft Offset From Center
+        --     -2,
 
-            # x
-            1.6,
+        --     # x
+        --     1.6,
 
-            # z
-            0.18,
+        --     # z
+        --     0.18,
 
-            # height
-            # TopRight Offset From Center
-            2,
+        --     # height
+        --     # TopRight Offset From Center
+        --     2,
 
-            # x
-            1.6,
+        --     # x
+        --     1.6,
 
-            # z
-            0.18,
+        --     # z
+        --     0.18,
 
-            # height
-            # BottomLeft Offset From Center
-            -2,
+        --     # height
+        --     # BottomLeft Offset From Center
+        --     -2,
 
-            # x
-            1.75,
+        --     # x
+        --     1.75,
 
-            # z
-            0,
+        --     # z
+        --     0,
 
-            # height
-            # BottomRight Offset From Center
-            2,
+        --     # height
+        --     # BottomRight Offset From Center
+        --     2,
 
-            # x
-            1.75,
+        --     # x
+        --     1.75,
 
-            # z
-            0,
-        },
+        --     # z
+        --     0,
+        -- },
         RollOffPoints = {
             {
                 UnitSpin = 0,
