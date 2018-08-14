@@ -1,11 +1,7 @@
 UnitBlueprint {
     AI = {
         TargetBones = {
-            'Factory',
-            'pCube14',
-            'pCube15',
-            'pCube16',
-            'pCube17',
+            'FSFACTORYDST2',
         },
     },
     Audio = {
@@ -44,7 +40,6 @@ UnitBlueprint {
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
-        'BUILTBYTIER1FACTORY',
         'FS',
         'STRUCTURE',
         'LAND',
@@ -59,7 +54,7 @@ UnitBlueprint {
         'RECLAIMABLE',
         'SHOWQUEUE',
         'SORTCONSTRUCTION',
-        'MECH',
+        'DROPSHIP',
     },
     Defense = {
         AirThreatLevel = 0,

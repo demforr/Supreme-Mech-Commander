@@ -107,7 +107,7 @@ UnitBlueprint {
             },
         },
         SpawnRandomRotation = true,
-        UniformScale = 0.1,
+        UniformScale = 0.9,
     },
     Economy = {
         BuildCostEnergy = 11700,
@@ -118,7 +118,6 @@ UnitBlueprint {
             'BUILTBYTIER2FACTORY LA MOBILE CONSTRUCTION',
             'BUILTBYTIER2FACTORY LA STRUCTURE AIR',
             'BUILTBYTIER2FACTORY LA MOBILE AIR',
-            'TRANSPORTBUILTBYTIER2FACTORY LA MOBILE AIR',
         },
         StorageEnergy = 0,
         StorageMass = 160,

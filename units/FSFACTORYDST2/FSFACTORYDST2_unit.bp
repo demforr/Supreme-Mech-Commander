@@ -1,21 +1,18 @@
 UnitBlueprint {
     AI = {
         TargetBones = {
-            'Target01',
-            'Target02',
-            'Target03',
-            'FSFACTORYAT2',
+            'FSFACTORYDST2',
         },
     },
     Audio = {
         Construct = Sound {
             Bank = 'UEB',
-            Cue = 'FSFACTORYAT2_Construct_Start',
+            Cue = 'FSFACTORYDST2_Construct_Start',
             LodCutoff = 'UnitMove_LodCutoff',
         },
         ConstructLoop = Sound {
             Bank = 'UEB',
-            Cue = 'FSFACTORYAT2_Construct_Loop',
+            Cue = 'FSFACTORYDST2_Construct_Loop',
             LodCutoff = 'UnitMove_LodCutoff',
         },
         DeathExplosion = Sound {
@@ -30,7 +27,7 @@ UnitBlueprint {
         },
         DoneBeingBuilt = Sound {
             Bank = 'UEB',
-            Cue = 'FSFACTORYAT2_Activate',
+            Cue = 'FSFACTORYDST2_Activate',
             LodCutoff = 'UnitMove_LodCutoff',
         },
         UISelection = Sound {
@@ -43,10 +40,10 @@ UnitBlueprint {
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
-        'BUILTBYTIER1FACTORY',
+        'BUILTBYTIER2ENGINEER',
         'FS',
         'STRUCTURE',
-        'AIR',
+        'DROPSHIP',
         'TECH2',
         'CONSTRUCTION',
         'FACTORY',
@@ -69,27 +66,27 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
     },
-    Description = '<LOC FSFACTORYAT2_desc>Federated Suns Air Factory',
+    Description = '<LOC FSFACTORYDST2_desc>Federated Suns Air Factory',
     Display = {
-        Abilities = {
-            '<LOC ability_upgradable>Upgradeable',
-        },
-        AnimationFinishBuildLand = '/units/FSFACTORYAT2/FSFACTORYAT2_aplatform.sca',
-        AnimationUpgrade = '/units/FSFACTORYAT2/FSFACTORYAT2_aupgrade.sca',
-        BlinkingLights = {
-            {
-                BLBone = 'Tower04',
-                BLOffsetX = 0.25,
-                BLOffsetY = 0.07,
-                BLOffsetZ = 0.6,
-                BLScale = 2,
-            },
-        },
-        BlinkingLightsFx = {
-            Green = '/effects/emitters/light_green_03_emit.bp',
-            Red = '/effects/emitters/light_red_03_emit.bp',
-            Yellow = '/effects/emitters/light_yellow_02_emit.bp',
-        },
+        -- Abilities = {
+        --     '<LOC ability_upgradable>Upgradeable',
+        -- },
+        -- AnimationFinishBuildLand = '/units/FSFACTORYDST2/FSFACTORYDST2_aplatform.sca',
+        -- AnimationUpgrade = '/units/FSFACTORYDST2/FSFACTORYDST2_aupgrade.sca',
+        -- BlinkingLights = {
+        --     {
+        --         BLBone = 'Tower04',
+        --         BLOffsetX = 0.25,
+        --         BLOffsetY = 0.07,
+        --         BLOffsetZ = 0.6,
+        --         BLScale = 2,
+        --     },
+        -- },
+        -- BlinkingLightsFx = {
+        --     Green = '/effects/emitters/light_green_03_emit.bp',
+        --     Red = '/effects/emitters/light_red_03_emit.bp',
+        --     Yellow = '/effects/emitters/light_yellow_02_emit.bp',
+        -- },
         BuildAttachBone = 'Attachpoint',
         Mesh = {
             IconFadeInZoom = 130,
@@ -98,16 +95,10 @@ UnitBlueprint {
                     LODCutoff = 200,
                     ShaderName = 'Unit',
                 },
-                {
-                    AlbedoName = 'FSFACTORYAT2_lod1_albedo.dds',
-                    LODCutoff = 500,
-                    ShaderName = 'Unit',
-                    SpecularName = 'FSFACTORYAT2_lod1_specteam.dds',
-                },
             },
         },
         SpawnRandomRotation = true,
-        UniformScale = 0.9,
+        UniformScale = 2.5,
     },
     Economy = {
         BuildCostEnergy = 11700,
@@ -115,22 +106,22 @@ UnitBlueprint {
         BuildRate = 40,
         BuildTime = 1800,
         BuildableCategory = {
-            'BUILTBYTIER2FACTORY FS MOBILE CONSTRUCTION',
-            'BUILTBYTIER2FACTORY FS STRUCTURE AIR',
-            'BUILTBYTIER2FACTORY FS MOBILE AIR',
+            'TRANSPORTBUILTBYTIER2FACTORY FS MOBILE AIR',
         },
         StorageEnergy = 0,
         StorageMass = 160,
     },
     Footprint = {
-        SizeX = 5,
-        SizeZ = 5,
+        SizeX = 16,
+        SizeZ = 16,
     },
     General = {
         BuildBones = {
             BuildEffectBones = {
                 'Muzzle01',
                 'Muzzle02',
+                'Muzzle03',
+                'Muzzle04',
             },
         },
         Category = 'Factory',
@@ -156,14 +147,12 @@ UnitBlueprint {
         SelectionPriority = 5,
         TechLevel = 'RULEUTL_Advanced',
         UnitWeight = 1,
-        UpgradesFrom = 'FSFACTORYAT1',
-        UpgradesTo = 'FSFACTORYAT3',
     },
     Intel = {
         VisionRadius = 20,
     },
     Interface = {
-        HelpText = '<LOC FSFACTORYAT2_help>Air Factory',
+        HelpText = '<LOC FSFACTORYDST2_help>Dropship Factory',
     },
     LifeBarHeight = 0.075,
     LifeBarOffset = 1.65,
@@ -183,148 +172,24 @@ UnitBlueprint {
         MaxSteerForce = 0,
         MinSpeedPercent = 0,
         MotionType = 'RULEUMT_None',
-        RaisedPlatforms = {
-
-            # Platform 1
-            # TopLeft Offset From Center
-            -1.6,
-
-            # x
-            -2,
-
-            # z
-            0.18,
-
-            # height
-            # TopRight Offset From Center
-            2,
-
-            # x
-            -2,
-
-            # z
-            0.18,
-
-            # height
-            # BottomLeft Offset From Center
-            -1.6,
-
-            # x
-            1.6,
-
-            # z
-            0.18,
-
-            # height
-            # BottomRight Offset From Center
-            2,
-
-            # x
-            1.6,
-
-            # z
-            0.18,
-
-            # height
-            # Platform 2
-            # TopLeft Offset From Center
-            -1.75,
-
-            # x
-            -2,
-
-            # z
-            0,
-
-            # height
-            # TopRight Offset From Center
-            -1.6,
-
-            # x
-            -2,
-
-            # z
-            0.18,
-
-            # height
-            # BottomLeft Offset From Center
-            -1.75,
-
-            # x
-            1.6,
-
-            # z
-            0,
-
-            # height
-            # BottomRight Offset From Center
-            -1.6,
-
-            # x
-            1.6,
-
-            # z
-            0.18,
-
-            # height
-            # Platform 3
-            # TopLeft Offset From Center
-            -2,
-
-            # x
-            1.6,
-
-            # z
-            0.18,
-
-            # height
-            # TopRight Offset From Center
-            2,
-
-            # x
-            1.6,
-
-            # z
-            0.18,
-
-            # height
-            # BottomLeft Offset From Center
-            -2,
-
-            # x
-            1.75,
-
-            # z
-            0,
-
-            # height
-            # BottomRight Offset From Center
-            2,
-
-            # x
-            1.75,
-
-            # z
-            0,
-        },
         RollOffPoints = {
             {
                 UnitSpin = 0,
                 X = 0,
                 Y = 0,
-                Z = 3,
+                Z = 10,
             },
             {
                 UnitSpin = -90,
-                X = -3,
+                X = -10,
                 Y = 0,
                 Z = 0,
             },
         },
         SkirtOffsetX = -1.5,
         SkirtOffsetZ = -1.5,
-        SkirtSizeX = 8,
-        SkirtSizeZ = 8,
+        SkirtSizeX = 16,
+        SkirtSizeZ = 16,
         TurnRate = 0,
     },
     SelectionSizeX = 3.2,
