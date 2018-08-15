@@ -108,6 +108,9 @@ UnitBlueprint {
         BuildableCategory = {
             'TRANSPORTBUILTBYTIER2FACTORY FS MOBILE AIR',
         },
+        RebuildBonusIds = {
+            'FSFACTORYDST2',
+        },
         StorageEnergy = 0,
         StorageMass = 160,
     },
