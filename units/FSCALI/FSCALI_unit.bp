@@ -178,7 +178,7 @@ UnitBlueprint {
             CollideFriendly = false,
             Damage = 1,
             DamageRadius = 0,
-            DamageType = 'D_ClusterEnergy',
+            DamageType = 'D_ClusterAmmo',
             DisplayName = 'Long Range Missles',
             EnergyDrainPerSecond = 100,
             EnergyRequired = 1000,            

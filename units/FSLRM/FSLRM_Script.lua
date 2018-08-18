@@ -13,6 +13,7 @@ local TSAMLauncher = import('/lua/terranweapons.lua').TSAMLauncher
 FSLRM = Class(TLandUnit) {
     Weapons = {
         LRM = Class(TSAMLauncher) {},
+        LRM2 = Class(TSAMLauncher) {},
     },
 }
 
