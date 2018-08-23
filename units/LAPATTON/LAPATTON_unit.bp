@@ -232,7 +232,7 @@ UnitBlueprint {
             FiringRandomnessWhileMoving = 1.5,
             FiringTolerance = 1,
             Label = 'AC10',
-            MaxRadius = 27,
+            MaxRadius = 45,
             MinRadius = 0,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,

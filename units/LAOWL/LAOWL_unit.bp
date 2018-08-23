@@ -195,8 +195,8 @@ UnitBlueprint {
         UniformScale = 0.4,
     },
     Economy = {
-        BuildCostEnergy = 6450,
-        BuildCostMass = 129,
+        BuildCostEnergy = 7650,
+        BuildCostMass = 153,
         BuildTime = 300,
     },
     Footprint = {
@@ -250,7 +250,7 @@ UnitBlueprint {
         },
         Elevation = 18,
         FuelRechargeRate = 10,
-        FuelUseTime = 500,
+        FuelUseTime = 80,
         GroundCollisionOffset = 1.6,
         MaxSpeed = 0.5,
         MeshExtentsX = 2,
