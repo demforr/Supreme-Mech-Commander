@@ -12,7 +12,35 @@ LAOWL = Class(TAirUnit) {
 
     Weapons = {
         SRM = Class(TSAMLauncher) {},
-        Bomb = Class(TIFCarpetBombWeapon) {},
+        Bomb = Class(TIFCarpetBombWeapon) {
+                
+            IdleState = State (TIFCarpetBombWeapon.IdleState) {
+                Main = function(self)
+                    TIFCarpetBombWeapon.IdleState.Main(self)
+                end,
+                
+                OnGotTarget = function(self)
+                    self.unit:SetBreakOffTriggerMult(2.0)
+                    self.unit:SetBreakOffDistanceMult(8.0)
+                    self.unit:SetSpeedMult(0.25)
+                    TIFCarpetBombWeapon.OnGotTarget(self)
+                end,                
+            },
+        
+            OnGotTarget = function(self)
+                self.unit:SetBreakOffTriggerMult(2.0)
+                self.unit:SetBreakOffDistanceMult(8.0)
+                self.unit:SetSpeedMult(0.25)
+                TIFCarpetBombWeapon.OnGotTarget(self)
+            end,
+        
+            OnLostTarget = function(self)
+                self.unit:SetBreakOffTriggerMult(1.0)
+                self.unit:SetBreakOffDistanceMult(1.0)
+                self.unit:SetSpeedMult(1.0)
+                TIFCarpetBombWeapon.OnLostTarget(self)
+            end,  	
+        },
     },
 }
 
