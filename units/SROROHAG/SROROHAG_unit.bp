@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1492,
     },
-    Description = '<LOC SROROHAG_desc>Oro Heavy Tank HAG',
+    Description = '<LOC SROROHAG_desc>Oro (HAG)',
     Display = {
         Abilities = {
             '1x HAG30',
@@ -121,8 +121,8 @@ UnitBlueprint {
         UniformScale = 0.35,
     },
     Economy = {
-        BuildCostEnergy = 5968,
-        BuildCostMass = 1492,
+        BuildCostEnergy = 10860,
+        BuildCostMass = 2715,
         BuildTime = 1200,
         TeleportEnergyMod = 0.15,
         TeleportMassMod = 1,
@@ -156,7 +156,7 @@ UnitBlueprint {
         ToggleCaps = {
             RULEUTC_WeaponToggle = true,
         },
-        UnitName = '<LOC SROROHAG_name>Oro Heavy Tank HAG',
+        UnitName = '<LOC SROROHAG_name>60 Ton Heavy Tank',
         UnitWeight = 1,
     },
     Intel = {
@@ -236,8 +236,8 @@ UnitBlueprint {
                 Land = 'Air',
                 Water = 'Air',
             },
-            FiringRandomness = 0.3,
-            FiringRandomnessWhileMoving = 1.5,
+            FiringRandomness = 0.1,
+            FiringRandomnessWhileMoving = 0.3,
             FiringTolerance = 1,
             Label = 'AAGun',
             LeadTarget = true,

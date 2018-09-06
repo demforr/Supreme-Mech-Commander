@@ -55,7 +55,7 @@ UEL0001 = Class(AAirUnit) {
         self:AddBuildRestriction( categories.FS * (categories.BUILTBYTIER1FACTORY + categories.BUILTBYTIER2FACTORY + categories.MOBILE + categories.LAND) )
         self:AddBuildRestriction( categories.LA * (categories.BUILTBYTIER1FACTORY + categories.BUILTBYTIER2FACTORY + categories.MOBILE + categories.LAND) )
         self:AddBuildRestriction( categories.SR * (categories.BUILTBYTIER1FACTORY + categories.MOBILE + categories.LAND) )
-        self:AddBuildRestriction( categories.HH * (categories.BUILTBYTIER1FACTORY + categories.MOBILE + categories.LAND) )
+        self:AddBuildRestriction( categories.CLAN * (categories.BUILTBYTIER1FACTORY + categories.MOBILE + categories.LAND) )
     end,
 
     StartBeingBuiltEffects = function(self, builder, layer)
@@ -255,12 +255,12 @@ UEL0001 = Class(AAirUnit) {
                 }
             end
             Buff.ApplyBuff(self, 'SRBuildRate2')
-        elseif enh =='HellsHorsesCommand' then
+        elseif enh =='ClanCommand' then
             local bp = self:GetBlueprint().Enhancements[enh]
             if not bp then return end
             local cat = ParseEntityCategory(bp.BuildableCategoryAdds)
             self:RemoveBuildRestriction(cat)
-#        elseif enh =='HellsHorsesCommand' then
+#        elseif enh =='ClanCommand' then
 #            local bp = self:GetBlueprint().Enhancements[enh]
 #            if not bp then return end
 #            local cat = ParseEntityCategory(bp.BuildableCategoryAdds)
