@@ -25,10 +25,10 @@ CLANFACTORYAT1 = Class(TAirFactoryUnit) {
         TAirFactoryUnit.MovingArmsThread(self)
         while true do
             if not self.ArmSlider then return end
-            self.ArmSlider:SetGoal(0, 6, 0)
-            self.ArmSlider:SetSpeed(20)
+            self.ArmSlider:SetGoal(0, 0, 0)
+            self.ArmSlider:SetSpeed(0.1)
             WaitFor(self.ArmSlider)
-            self.ArmSlider:SetGoal(0, -6, 0)
+            self.ArmSlider:SetGoal(0, -0.2, 0)
             WaitFor(self.ArmSlider)
         end
     end,
