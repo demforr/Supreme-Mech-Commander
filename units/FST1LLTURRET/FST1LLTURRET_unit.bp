@@ -45,7 +45,7 @@ UnitBlueprint {
         'SIZE4',
         'VISIBLETORECON',
         'RECLAIMABLE',
-        'OVERLAYANTIAIR',
+        'OVERLAYDIRECTFIRE',
         'SORTDEFENSE',
     },
     CollisionOffsetY = -0.55,
@@ -53,8 +53,8 @@ UnitBlueprint {
         AirThreatLevel = 9,
         ArmorType = 'A_M_Standard',
         EconomyThreatLevel = 7,
-        Health = 127,
-        MaxHealth = 127,
+        Health = 50,
+        MaxHealth = 50,
         RegenRate = 0,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
@@ -62,7 +62,6 @@ UnitBlueprint {
     Description = '<LOC FST1LLTURRET_desc>Large Laser Turret',
     Display = {
         Abilities = {
-            '<LOC ability_aa>Anti-Air',
             '1x Large Laser'
         },
         Mesh = {
@@ -79,9 +78,9 @@ UnitBlueprint {
         UniformScale = 0.09,
     },
     Economy = {
-        BuildCostEnergy = 2656,
-        BuildCostMass = 332,
-        BuildTime = 250,
+        BuildCostEnergy = 832,
+        BuildCostMass = 104,
+        BuildTime = 50,
         RebuildBonusIds = {
             'FST1LLTURRET',
         },
@@ -149,7 +148,7 @@ UnitBlueprint {
     SizeX = 0.5,
     SizeY = 1.1,
     SizeZ = 0.5,
-    StrategicIconName = 'icon_structure1_antiair',
+    StrategicIconName = 'icon_structure1_directfire',
     StrategicIconSortPriority = 200,
     Veteran = {
         Level1 = 8,

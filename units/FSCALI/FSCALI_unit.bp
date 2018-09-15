@@ -52,8 +52,8 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'A_V_Standard_Track',
         EconomyThreatLevel = 6,
-        Health = 131,
-        MaxHealth = 131,
+        Health = 236,
+        MaxHealth = 236,
         RegenRate = 0,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 426,
@@ -81,8 +81,8 @@ UnitBlueprint {
     Economy = {
         BuildCostEnergy = 3408,
         BuildCostMass = 426,
-        BuildTime = 500,
-        MaintenanceConsumptionPerSecondEnergy = 200,
+        BuildTime = 236,
+        -- MaintenanceConsumptionPerSecondEnergy = 200,
         RebuildBonusIds = {
             'FSCALI',
         },
@@ -283,6 +283,7 @@ UnitBlueprint {
             MaxRadius = 30,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
+            PrefersPrimaryWeaponTarget = true,
             ProjectilesPerOnFire = 1,
             RackBones = {
                 {
@@ -357,6 +358,7 @@ UnitBlueprint {
             MaxRadius = 18,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
+            PrefersPrimaryWeaponTarget = true,
             ProjectilesPerOnFire = 1,
             RackBones = {
                 {

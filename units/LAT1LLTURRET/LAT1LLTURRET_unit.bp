@@ -53,8 +53,8 @@ UnitBlueprint {
         AirThreatLevel = 9,
         ArmorType = 'A_M_Standard',
         EconomyThreatLevel = 7,
-        Health = 127,
-        MaxHealth = 127,
+        Health = 50,
+        MaxHealth = 50,
         RegenRate = 0,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
@@ -79,9 +79,9 @@ UnitBlueprint {
         UniformScale = 0.09,
     },
     Economy = {
-        BuildCostEnergy = 2656,
-        BuildCostMass = 332,
-        BuildTime = 250,
+        BuildCostEnergy = 832,
+        BuildCostMass = 104,
+        BuildTime = 50,
         RebuildBonusIds = {
             'FST1LLTURRET',
         },

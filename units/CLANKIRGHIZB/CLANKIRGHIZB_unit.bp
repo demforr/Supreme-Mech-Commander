@@ -125,8 +125,10 @@ UnitBlueprint {
             '<LOC ability_aa>Anti-Air',
             '<LOC ability_radar>Radar',
             'Basic Vehicle Sensor 700m Range',
-            '4x Large Pulse Laser',
-            '1x Medium Pulse Laser',
+            '3x Clan ERPPC |-| Max: 690m',
+            '5x Clan LRM20 |-| Max: 630m',
+            '1x Clan ER Small Laser |-| Max: 180m',
+            '1x Clan Medium Pulse Laser |-| Max: 360m',
         },
         AttackReticuleSize = 4,
         LayerChangeEffects = {
