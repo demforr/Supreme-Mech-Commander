@@ -3,7 +3,6 @@ UnitBlueprint {
         GuardRadius = 10,
         TargetBones = {
             'Torso',
-            'UDLAS7D_lod0',
         },
     },
     Audio = {
