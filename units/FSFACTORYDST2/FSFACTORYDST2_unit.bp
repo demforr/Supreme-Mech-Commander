@@ -41,7 +41,7 @@ UnitBlueprint {
         'PRODUCTSC1',
         'SELECTABLE',
         'BUILTBYTIER2ENGINEER',
-        'FS',
+        'LA',
         'STRUCTURE',
         'DROPSHIP',
         'TECH2',
@@ -50,7 +50,7 @@ UnitBlueprint {
         'RALLYPOINT',
         'DRAGBUILD',
         'CONSTRUCTIONSORTDOWN',
-        'SIZE16',
+        'SIZE24',
         'VISIBLETORECON',
         'RECLAIMABLE',
         'SHOWQUEUE',
@@ -102,7 +102,7 @@ UnitBlueprint {
     },
     Economy = {
         BuildCostEnergy = 11700,
-        BuildCostMass = 630,
+        BuildCostMass = 2000,
         BuildRate = 40,
         BuildTime = 1800,
         BuildableCategory = {
@@ -111,12 +111,12 @@ UnitBlueprint {
         RebuildBonusIds = {
             'FSFACTORYDST2',
         },
-        StorageEnergy = 0,
-        StorageMass = 160,
+        StorageEnergy = 37000,
+        StorageMass = 2000,
     },
     Footprint = {
-        SizeX = 16,
-        SizeZ = 16,
+        SizeX = 24,
+        SizeZ = 24,
     },
     General = {
         BuildBones = {
@@ -189,20 +189,20 @@ UnitBlueprint {
                 Z = 0,
             },
         },
-        SkirtOffsetX = -1.5,
-        SkirtOffsetZ = -1.5,
-        SkirtSizeX = 16,
-        SkirtSizeZ = 16,
+        SkirtOffsetX = 0,
+        SkirtOffsetZ = 0,
+        SkirtSizeX = 24,
+        SkirtSizeZ = 24,
         TurnRate = 0,
     },
-    SelectionSizeX = 3.2,
-    SelectionSizeZ = 3.1,
+    SelectionSizeX = 12,
+    SelectionSizeZ = 12,
     SelectionThickness = 0.3,
 
     # height
-    SizeX = 3.5,
-    SizeY = 0.75,
-    SizeZ = 3.5,
+    SizeX = 24,
+    SizeY = 1,
+    SizeZ = 24,
     StrategicIconName = 'icon_factory2_air',
     StrategicIconSortPriority = 215,
     Wreckage = {

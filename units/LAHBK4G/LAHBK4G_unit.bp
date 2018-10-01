@@ -47,7 +47,7 @@ UnitBlueprint {
         'SELECTABLE',
         'BUILTBYTIER2FACTORY',        
         'BUILTBYTIER3FACTORY',
-        'FS',
+        'LA',
         'MOBILE',
         'LAND',
         'TECH1',
@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 1041,
         SurfaceThreatLevel = 1041,
     },
-    Description = '<LOC FSHBK4G_desc>Hunchback HBK-4G',
+    Description = '<LOC LAHBK4G_desc>Hunchback HBK-4G',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',
@@ -80,7 +80,7 @@ UnitBlueprint {
             '2x Medium Laser',
             '1x Small Laser',
         },
-        AnimationWalk = '/Mods/Supreme Mech Commander/units/FSHBK4G/FSHBK4G_walk.sca',
+        AnimationWalk = '/Mods/Supreme Mech Commander/units/LAHBK4G/LAHBK4G_walk.sca',
         AnimationWalkRate = 4.5,
         Mesh = {
             IconFadeInZoom = 100,
@@ -124,7 +124,7 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'amph',
         TechLevel = 'RULEUTL_Basic',
-        UnitName = '<LOC FSHBK4G_name>Hunchback HBK-4G',
+        UnitName = '<LOC LAHBK4G_name>Hunchback HBK-4G',
         UnitWeight = 1,
     },
     Intel = {
@@ -133,7 +133,7 @@ UnitBlueprint {
         WaterVisionRadius = 25
     },
     Interface = {
-        HelpText = '<LOC FSHBK4G_help>Hunchback HBK-4G',
+        HelpText = '<LOC LAHBK4G_help>Hunchback HBK-4G',
     },
     LifeBarHeight = 0.075,
     LifeBarOffset = 0.45,
