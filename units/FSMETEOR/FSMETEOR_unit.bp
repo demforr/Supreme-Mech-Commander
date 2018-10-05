@@ -241,7 +241,7 @@ UnitBlueprint {
     LifeBarOffset = 0.65,
     LifeBarSize = 1.25,
     Physics = {
-        AttackElevation = 4,
+        AttackElevation = 10,
         BuildOnLayerCaps = {
             LAYER_Air = true,
             LAYER_Land = true,

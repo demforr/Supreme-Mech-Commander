@@ -239,7 +239,7 @@ UnitBlueprint {
     LifeBarOffset = 0.65,
     LifeBarSize = 1.25,
     Physics = {
-        AttackElevation = 4,
+        -- AttackElevation = 10,
         BuildOnLayerCaps = {
             LAYER_Air = true,
             LAYER_Land = true,
@@ -380,11 +380,11 @@ UnitBlueprint {
                 Air = 'Land|Water|Seabed',
                 Land = 'Land|Water|Seabed',
             },
-            FiringRandomness = 0,
-            FiringTolerance = 1,
+            FiringRandomness = 3,
+            FiringTolerance = 3,
             Label = 'Bomb',
             MaxRadius = 40,
-            MuzzleSalvoDelay = 0.5,
+            MuzzleSalvoDelay = 0.2,
             MuzzleSalvoSize = 2,
             MuzzleVelocity = 0,
             NeedToComputeBombDrop = true,
