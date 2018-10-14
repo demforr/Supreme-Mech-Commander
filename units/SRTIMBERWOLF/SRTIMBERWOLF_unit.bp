@@ -76,7 +76,7 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
-            'Clan Standard Sensors |-| 1115m Range',
+            'Clan Standard Sensors |-| 1155m Range',
             '2x Clan LRM20 |-| Max: 630m',
             '2x Clan ER Large Laser |-| Max: 750m',
             '2x Clan ER Medium Laser |-| Max: 450m',
@@ -145,7 +145,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 111,
+        RadarRadius = 115,
         VisionRadius = 45,
         WaterVisionRadius = 25
     },
