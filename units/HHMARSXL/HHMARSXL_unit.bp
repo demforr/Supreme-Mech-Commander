@@ -74,12 +74,12 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '<LOC ability_jamming>Jammer',
-            'ECM 770m Range',   
-            '1x Clan Gauss Rifle',
-            '1x Clan ER Large Laser',
-            '1x Clan LBX10',
-            '3x Clan LRM15 w/Artemis',
-            '2x Clan Streak SRM6',
+            'ECM |-| 1575m Range',   
+            '1x Clan Gauss Rifle |-| Min:60m Max:660m',
+            '1x Clan ER Large Laser |-| Max: 750m',
+            '1x Clan LBX10 |-| Max: 540m',
+            '3x Clan LRM15 w/Artemis |-| Max: 630m',
+            '2x Clan Streak SRM6 |-| Max: 360m',
         },
         Mesh = {
             IconFadeInZoom = 100,
@@ -159,8 +159,8 @@ UnitBlueprint {
     Intel = {
         VisionRadius = 37.5,
         JamRadius = {
-            Max = 77,
-            Min = 0,
+            Max = 157,
+            Min = 157,
         },
         JammerBlips = 50,
     },

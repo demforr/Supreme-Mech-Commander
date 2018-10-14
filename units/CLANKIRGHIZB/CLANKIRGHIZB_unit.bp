@@ -124,7 +124,7 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
             '<LOC ability_radar>Radar',
-            'Basic Vehicle Sensor 700m Range',
+            'Clan Standard Sensor |-| 1155m Range',
             '3x Clan ERPPC |-| Max: 690m',
             '5x Clan LRM20 |-| Max: 630m',
             '1x Clan ER Small Laser |-| Max: 180m',
@@ -231,7 +231,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 105,
+        RadarRadius = 115,
         VisionRadius = 22.5,
     },
     Interface = {

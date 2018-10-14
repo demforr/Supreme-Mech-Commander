@@ -73,17 +73,17 @@ UnitBlueprint {
         SubThreatLevel = 1085,
         SurfaceThreatLevel = 1085,
     },
-    Description = '<LOC SRKITFOX>Kit Fox PRime',
+    Description = '<LOC SRKITFOX>Kit Fox Prime',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_engineeringsuite>Engineering Suite',
             '<LOC ability_radar>Radar',
-            'Clan Extended Sensors 980m Range',
-            '1x Clan LB-X AC/5',
-            '1x Clan ER Large Laser',
-            '1x Clan Small Pulse Laser',
-            '1x Clan Streak SRM4',
+            'Clan Extended Sensors |-| 1470m Range',
+            '1x Clan LB-X AC/5 |-| Min: 90 Max: 720m',
+            '1x Clan ER Large Laser |-| Max: 750m',
+            '1x Clan Small Pulse Laser |-| Max: 180m',
+            '1x Clan Streak SRM4 |-| Max: 360m',
 
         },
         AnimationDeath = {
@@ -149,9 +149,9 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 98,
+        RadarRadius = 147,
         VisionRadius = 45,
-        WaterVisionRadius = 25
+        WaterVisionRadius = 25,
     },
     Interface = {
         HelpText = '<LOC SRKITFOX_help>Kit Fox Prime',

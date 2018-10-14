@@ -78,8 +78,8 @@ UnitBlueprint {
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_engineeringsuite>Engineering Suite',
             '<LOC ability_radar>Radar',
-            'Clan Standard Sensors 770m Range',
-            '2x HAG30',
+            'Clan Standard Sensors 1155m Range',
+            '2x HAG30 |-| Min: 60m Max: 720m',
         },
         AnimationDeath = {
             {
@@ -144,7 +144,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 77,
+        RadarRadius = 115,
         VisionRadius = 45,
         WaterVisionRadius = 25
     },

@@ -114,7 +114,7 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '<LOC ability_engineeringsuite>Engineering Suite',
-            '2x Medium Laser',
+            '2x Medium Laser |-| Max: 270m',
         },
         Mesh = {
             IconFadeInZoom = 100,

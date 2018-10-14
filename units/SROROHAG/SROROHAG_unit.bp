@@ -73,8 +73,8 @@ UnitBlueprint {
     Description = '<LOC SROROHAG_desc>Oro (HAG)',
     Display = {
         Abilities = {
-            '1x HAG30',
-            '1x Clan Large Pulse Laser',
+            '1x HAG30 |-| Min: 60m Max: 720m',
+            '1x Clan Large Pulse Laser |-| Max: 690m',
         },
         Mesh = {
             IconFadeInZoom = 100,

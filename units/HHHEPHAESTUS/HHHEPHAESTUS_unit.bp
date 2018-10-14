@@ -101,12 +101,12 @@ UnitBlueprint {
             '<LOC ability_hover>Hover',
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
-            'Basic Vehicle Sensor |-| 1050m Range',
+            'Clan Standard Sensor |-| 1155m Range',
             '<LOC ability_omni>Omni',
-            'BAP 490m Range',
+            'BAP |-| 490m Range',
             '<LOC ability_jamming>Jammer',
-            'ECM 700m Range',
-            '2x Clan Medium Pulse Laser [Range: 360m]',
+            'ECM |-| 700m Range',
+            '2x Clan Medium Pulse Laser |-| Max: 360m',
         },
         IdleEffects = {
             Land = {
@@ -258,14 +258,14 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 105,
-        OmniRadius = 49,
+        RadarRadius = 115,
+        OmniRadius = 115,
         VisionRadius = 37.5,
         JamRadius = {
-            Max = 77,
-            Min = 0,
+            Max = 157,
+            Min = 157,
         },
-        JammerBlips = 5,
+        JammerBlips = 50,
     },
     Interface = {
         HelpText = '<LOC HHHEPHAESTUS_help>Scout Tank',

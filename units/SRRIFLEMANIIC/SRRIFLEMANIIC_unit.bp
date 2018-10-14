@@ -76,11 +76,11 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
-            'Clan Extended Sensors 980m Range',
+            'Clan Extended Sensors |-| 1470m Range',
             '<LOC ability_omni>Omni',
-            'Clan BAP 490m Range',
-            '4x Clan ER Large Pulse Laser Max:540m',
-            '1x Clan Small Laser',
+            'Clan BAP |-| 1470m Range',
+            '4x Clan Large Pulse Laser |-| Max: 690m',
+            '1x Clan Small Laser |-| Max:90m',
         },
         AnimationDeath = {
             {
@@ -153,8 +153,8 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 98,
-        OmniRadius = 49,
+        RadarRadius = 147,
+        OmniRadius = 147,
         VisionRadius = 45,
         WaterVisionRadius = 25
     },

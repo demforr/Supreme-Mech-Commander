@@ -96,8 +96,8 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_hover>Hover',
             '<LOC ability_amphibious>Amphibious',
-            '1x Streak SRM4 [Range: 360m]',
-            '4x Clan Medium Pulse Laser [Range: 360m]',
+            '1x Streak SRM4 |-| Max: 360m',
+            '4x Clan Medium Pulse Laser |-| Max: 360m',
         },
         IdleEffects = {
             Land = {

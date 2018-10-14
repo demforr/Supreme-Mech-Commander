@@ -78,8 +78,9 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_engineeringsuite>Engineering Suite',
             '<LOC ability_personalstealth>Personal Stealth',
-            '1x Small Laser 90m Range',
-            '1x Detachable SRM2 Launcher',
+            '1x Small Laser |-| Max: 90m',
+            '1x Detachable SRM2 Launcher |-| 270m',
+            'Claw Melee Attack |-| Max: 2m',
         },
         AnimationWalk = '/Mods/Supreme Mech Commander/units/SRELEMENTAL/SRELEMENTAL_Awalk01.sca',
         AnimationWalkRate = 2.5,

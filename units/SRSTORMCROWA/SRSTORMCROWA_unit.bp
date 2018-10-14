@@ -79,10 +79,10 @@ UnitBlueprint {
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_engineeringsuite>Engineering Suite',
             '<LOC ability_radar>Radar',
-            'Clan Standard Sensors 770m Range',
-            '4x Clan Medium Pulse Laser',
-            '2x Clan Streak SRM6',
-            '1x Clan LRM20',
+            'Clan Standard Sensors |-| 1115m Range',
+            '4x Clan Medium Pulse Laser |-| Max: 360m',
+            '2x Clan Streak SRM6 |-| Max: 360m',
+            '1x Clan LRM20 |-| Max: 630m',
         },
         AnimationDeath = {
             {
@@ -147,7 +147,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 77,
+        RadarRadius = 111,
         VisionRadius = 45,
         WaterVisionRadius = 25
     },
