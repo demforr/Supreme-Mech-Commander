@@ -70,9 +70,9 @@ UnitBlueprint {
     Description = '<LOC FSPILUM_desc>PILUM',
     Display = {
         Abilities = {
-            '2x LRM15 w/Artemis',
-            '2x Streak SRM2',
-            '2x Medium Pulse Laser',
+            '2x LRM15 w/Artemis |-| Min: 180m Max: 630m',
+            '2x Streak SRM2 |-| Max: 270m',
+            '2x Medium Pulse Laser |-| Max: 180m',
         },
         Mesh = {
             IconFadeInZoom = 100,

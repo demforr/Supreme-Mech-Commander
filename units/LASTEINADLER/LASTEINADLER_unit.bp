@@ -125,9 +125,9 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
             '<LOC ability_radar>Radar',
-            'Basic Vehicle Sensor 700m Range',
-            '2x LRM5',
-            '1x SRM2',
+            'Basic Vehicle Sensor |-| 1050m Range',
+            '2x LRM5 |-| Min: 180m Max: 630m',
+            '1x SRM2 |-| Max: 270m',
             '5x 1000kg HE Bomb',
         },
         AttackReticuleSize = 4,

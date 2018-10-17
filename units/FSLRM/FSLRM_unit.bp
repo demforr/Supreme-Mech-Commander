@@ -73,7 +73,7 @@ UnitBlueprint {
     Description = '<LOC FSLRM_desc>LRM Carrier',
     Display = {
         Abilities = {
-            '3x LRM20',
+            '3x LRM20 |-| Min: 180m Max: 630m',
         },
         Mesh = {
             IconFadeInZoom = 100,

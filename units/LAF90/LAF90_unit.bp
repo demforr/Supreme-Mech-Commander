@@ -122,10 +122,10 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
             '<LOC ability_radar>Radar',
-            'Basic Vehicle Sensor 700m Range',
-            '1x PPC',
-            '2x Large Laser',
-            '2x Medium Laser',
+            'Basic Vehicle Sensor |-| 1050m Range',
+            '1x PPC |-| Min: 90m Max: 540m',
+            '2x Large Laser |-| Max: 450m',
+            '2x Medium Laser |-| Max: 270m',
         },
         AttackReticuleSize = 4,
         LayerChangeEffects = {

@@ -99,8 +99,8 @@ UnitBlueprint {
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
             'Basic Vehicle Sensor |-| 1050m Range',
-            '2x SRM4',
-            '1x Medium Laser',
+            '2x SRM4 |-| Max: 270m',
+            '1x Medium Laser |-| Max: 270m',
         },
         IdleEffects = {
             Land = {

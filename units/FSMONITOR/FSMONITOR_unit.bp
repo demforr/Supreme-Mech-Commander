@@ -76,8 +76,9 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '<LOC ability_radar>Radar',
-            '2x AC20',
-            '3x SRM2',
+            'Basic Vehicle Sensor |-| 1050m Range',
+            '2x AC20 |-| Max: 270m',
+            '3x SRM2 |-| Max: 270m',
         },
         -- AnimationDeath = {
         --     {
@@ -177,7 +178,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 35,
+        RadarRadius = 105,
         VisionRadius = 32,
         WaterVisionRadius = 45,
     },

@@ -73,8 +73,8 @@ UnitBlueprint {
     Description = '<LOC FSSCORPIONLT_desc>Scorpion Light Tank',
     Display = {
         Abilities = {
-            '1x AC5',
-            '1x MG',
+            '1x AC5 |-| Min: 90m Max: 540m',
+            '1x MG |-| Max: 90m',
         },
         Mesh = {
             IconFadeInZoom = 100,

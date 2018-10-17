@@ -72,8 +72,8 @@ UnitBlueprint {
     Description = '<LOC FSPIKE_desc>Pike Desc',
     Display = {
         Abilities = {
-            '3x AC/2 |-| Min: 120m Max: 720m ',
-            '2x SRM2 |-| Max: 240m'
+            '3x AC/2 |-| Min: 120m Max: 720m',
+            '2x SRM2 |-| Max: 240m',
         },
         Mesh = {
             IconFadeInZoom = 100,

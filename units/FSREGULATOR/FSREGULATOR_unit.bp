@@ -94,7 +94,7 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_hover>Hover',
             '<LOC ability_amphibious>Amphibious',
-            '1x Gauss Rifle',
+            '1x Gauss Rifle |-| Min: 90m Max: 660m',
         },
         IdleEffects = {
             Land = {

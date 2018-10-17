@@ -115,7 +115,7 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '<LOC ability_engineeringsuite>Engineering Suite',
-            '2x Light Machinegun',
+            '2x Light MG |-| Max: 180m',
         },
         #AnimationBuild = '/Mods/Supreme Mech Commander/units/FSJI50_Aopen.sca',
         #AnimationBuildRate = 5,

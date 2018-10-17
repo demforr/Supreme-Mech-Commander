@@ -95,8 +95,8 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_hover>Hover',
             '<LOC ability_amphibious>Amphibious',
-            '2x SRM2',
-            '1x Medium Laser',
+            '2x SRM2 |-| Max: 270m',
+            '1x Medium Laser |-| Max: 270m',
         },
         IdleEffects = {
             Land = {

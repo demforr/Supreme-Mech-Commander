@@ -124,8 +124,8 @@ UnitBlueprint {
             'Intermediate Vehicle Sensor |-| 1410m Range',
             'Guardian ECM Suite |-| 1570m Range',
             'Beagle Active Probe |-| 1410m Range',
-            '1x ER Large Laser',
-            '1x ER ELRM20',
+            '1x ER Large Laser |-| Max: 570m',
+            '1x ELRM20 |-| Min: 300m Max: 1140m',
 
         },
         AttackReticuleSize = 4,

@@ -124,7 +124,7 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
             '<LOC ability_transport>Transport',
-            '2x Machine Gun',
+            '2x Machine Gun |-| Max: 90m',
         },
         AnimationLand = '/units/FSKARNOV/FSKARNOV_atakeoff01.sca',
         ForcedBuildSpin = 90,
