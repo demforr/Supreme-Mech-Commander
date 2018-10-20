@@ -61,9 +61,9 @@ UnitBlueprint {
     Description = '<LOC LACALI_desc>Calliope Turret',
     Display = {
         Abilities = {
-            '2x LRM15',
-            '1x Medlum Pluse Laser',
-            '1x Large Pulse Laser',
+            '2x LRM15 |-| Min: 180m Max: 630m',
+            '1x Medlum Pluse Laser |-| Max: 180',
+            '1x Large Pulse Laser |-| Max: 300',
         },
         Mesh = {
             IconFadeInZoom = 130,
@@ -283,6 +283,7 @@ UnitBlueprint {
             MaxRadius = 30,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
+            PrefersPrimaryWeaponTarget = true,
             ProjectilesPerOnFire = 1,
             RackBones = {
                 {
@@ -357,6 +358,7 @@ UnitBlueprint {
             MaxRadius = 18,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
+            PrefersPrimaryWeaponTarget = true,
             ProjectilesPerOnFire = 1,
             RackBones = {
                 {

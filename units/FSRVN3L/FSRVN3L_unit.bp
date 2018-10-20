@@ -78,7 +78,7 @@ UnitBlueprint {
             '<LOC ability_radar>Radar',
             'Advanced Mech Sensor |-| 1570m Range',
             '<LOC ability_omni>Omni',
-            'BAP |-| 525m Range',
+            'BAP |-| 1570m Range',
             '<LOC ability_jamming>Jammer',
             'Guardian ECM Suite |-| 1570m Range',            
             '3x Medium Laser |-| Max: 240m',

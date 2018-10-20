@@ -78,8 +78,8 @@ UnitBlueprint {
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
             'Basic Mech Sensor |-| 1050m Range',
-            '3x PPC Min:90m Max:540m',
-            '1x Small Laser',
+            '3x PPC |-| Min: 90m Max: 540m',
+            '1x Small Laser |-| Max:90',
         },
         AnimationDeath = {
             {

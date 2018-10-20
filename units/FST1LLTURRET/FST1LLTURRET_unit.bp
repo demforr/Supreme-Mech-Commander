@@ -62,7 +62,7 @@ UnitBlueprint {
     Description = '<LOC FST1LLTURRET_desc>Large Laser Turret',
     Display = {
         Abilities = {
-            '1x Large Laser'
+            '1x Large Laser |-| Max: 450m',
         },
         Mesh = {
             IconFadeInZoom = 130,

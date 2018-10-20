@@ -63,6 +63,7 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
+            '4x AC2 [Flak Ammo]|-| Min: 120 Max: 720m',
         },
         Mesh = {
             IconFadeInZoom = 130,
@@ -182,6 +183,7 @@ UnitBlueprint {
             FiringTolerance = 1,
             Label = 'AAGun',
             MaxRadius = 72,
+            MinRadius = 12,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 50,

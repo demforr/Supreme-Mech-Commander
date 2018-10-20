@@ -73,8 +73,8 @@ UnitBlueprint {
     Description = '<LOC FSVNLK100_desc>Von Luckner Heavy Tank',
     Display = {
         Abilities = {
-            '2x AC20',
-            '1x SRM6',
+            '2x AC20 |-| Max: 270m',
+            '1x SRM6 |-| Max: 270m',
         },
         Mesh = {
             IconFadeInZoom = 100,

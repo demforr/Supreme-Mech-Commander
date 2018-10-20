@@ -71,7 +71,7 @@ UnitBlueprint {
     Description = '<LOC LAALACORN_desc>Alacorn Mk VI',
     Display = {
         Abilities = {
-            '3x Gause Rifle',
+            '3x Gauss Rifle |-| Min: 60m Max: 660m',
         },
         Mesh = {
             IconFadeInZoom = 100,

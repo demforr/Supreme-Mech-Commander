@@ -79,9 +79,9 @@ UnitBlueprint {
             '<LOC ability_radar>Radar',
             'Basic Mech Sensor |-| 1050m Range',
             '90m Jump Range',
-            '2x LBX20',
-            '3x Medium Pulse Laser',
-            '1x Medium Laser',
+            '2x LBX20 |-| Max: 270m',
+            '3x Medium Pulse Laser |-| Max: 180',
+            '1x Medium Laser |-| Max: 270m',
         },
         AnimationDeath = {
             {

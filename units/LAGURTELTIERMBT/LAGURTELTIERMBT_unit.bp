@@ -77,9 +77,9 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_jamming>Jammer',
             'Guardian ECM Suite |-| 1570m Range',
-            '1x Gauss Rifle - Min: 60m Max: 660m',
-            '1x ERPPC - Max: 690m',
-            '1x MML7 - Max: 630m',
+            '1x Gauss Rifle |-| Min: 60m Max: 660m',
+            '1x ERPPC |-| Max: 690m',
+            '1x MML7 |-| Max: 630m',
         },
         Mesh = {
             IconFadeInZoom = 100,

@@ -81,9 +81,9 @@ UnitBlueprint {
             'Basic Mech Sensor |-| 1050m Range',
             '<LOC ability_jamming>Jammer',
             'Guardian ECM Suite |-| 1570m Range',
-            '2x Heavy Gauss Rifle ',
-            '2x ER Medium Laser',
-            '1x Medium Pulse Laser',
+            '2x Heavy Gauss Rifle |-| Min: 120m Max: 600m',
+            '2x ER Medium Laser |-| Max: 360m',
+            '1x Medium Pulse Laser |-| Max: 180x',
         },
         AnimationDeath = {
             {

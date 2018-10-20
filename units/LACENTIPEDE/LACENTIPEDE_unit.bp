@@ -96,10 +96,10 @@ UnitBlueprint {
             '<LOC ability_hover>Hover',
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_radar>Radar',
-            'Advance Vehicle Sensor |-| 1410m Range',
+            'Advance Vehicle Sensor |-| 1575m Range',
             '<LOC ability_omni>Omni',
-            'Beagle Active Probe |-| 1410m Range',
-            '1x Medium Laser [Range: 240m]',
+            'Beagle Active Probe |-| 1575m Range',
+            '1x Medium Laser |-| Max: 270m',
         },
         IdleEffects = {
             Land = {
@@ -250,8 +250,8 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 141,
-        OmniRadius = 141,
+        RadarRadius = 157,
+        OmniRadius = 157,
         VisionRadius = 37.5,
         WaterVisionRadius = 25
     },

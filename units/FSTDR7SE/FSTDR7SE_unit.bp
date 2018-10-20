@@ -79,8 +79,8 @@ UnitBlueprint {
             '<LOC ability_jamming>Jammer',
             'Guardian ECM Suite |-| 1570m Range', 
             '120m Jump Range',
-            '4x Medium Pulse Laser',
-            '1x Gauss Rifle',
+            '4x Medium Pulse Laser |-| Max: 180m',
+            '1x Gauss Rifle |-| Min: 60m Max: 660m',
         },
         AnimationDeath = {
             {

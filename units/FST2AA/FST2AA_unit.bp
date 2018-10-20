@@ -60,6 +60,10 @@ UnitBlueprint {
     },
     Description = '<LOC FST2AA_desc>Dual RAC/5 AA Turret',
     Display = {
+        Abilities = {
+            '<LOC ability_aa>Anti-Air',
+            '2x RAC5 [Flak Ammo]|-| Max: 450m',
+        },
         Mesh = {
             IconFadeInZoom = 130,
             LODs = {
@@ -73,6 +77,7 @@ UnitBlueprint {
         SpawnRandomRotation = true,
         UniformScale = 0.20,
     },
+
     Economy = {
         BuildCostEnergy = 2592,
         BuildCostMass = 324,

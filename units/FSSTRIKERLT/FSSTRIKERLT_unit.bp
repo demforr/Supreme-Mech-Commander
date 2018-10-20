@@ -73,8 +73,8 @@ UnitBlueprint {
     Description = '<LOC FSSTRIKERLT_desc>Striker Light Tank',
     Display = {
         Abilities = {
-            'T: 1x LRM10 [Range: Min:90m Max:630m]',
-            'T: 1x SRM6  [Range: Max:270m]',
+            'T: 1x LRM10 |-| Min: 180m Max: 630m',
+            'T: 1x SRM6  |-| Max: 270m',
         },
         Mesh = {
             IconFadeInZoom = 100,

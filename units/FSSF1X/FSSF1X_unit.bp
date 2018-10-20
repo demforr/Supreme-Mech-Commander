@@ -125,7 +125,7 @@ UnitBlueprint {
             'Basic Vehicle Sensor |-| 1050m Range',
             '1x Ultra AC5 |-| Max: 600m',
             '4x Medium Laser |-| Max: 270m',
-            '1x Small Laser |-| Max: 90m (Rear)',
+            '1x Small Laser |-| Max: 90m [Rear]',
         },
         AttackReticuleSize = 4,
         LayerChangeEffects = {

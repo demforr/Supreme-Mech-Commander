@@ -73,9 +73,9 @@ UnitBlueprint {
     Description = '<LOC LABULLDOG_desc>Bulldog Medium Tank',
     Display = {
         Abilities = {
-            '1x Large Laser',
-            '2x SRM4',
-            '1x MG',
+            '1x Large Laser |-| Max: 450m',
+            '2x SRM4 |-| Max: 270m',
+            '1x MG |-| Max: 90m',
         },
         Mesh = {
             IconFadeInZoom = 100,
