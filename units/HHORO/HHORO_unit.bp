@@ -74,8 +74,8 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '1x Clan LBX20 |-| Max: 360m',
-            '1x Clan Large Pulse Laser|-| Max: 600m',
-            '1x Clan ER Medium Laser|-| Max: 450m',
+            '1x Clan Large Pulse Laser |-| Max: 600m',
+            '1x Clan ER Medium Laser |-| Max: 450m',
         },
         Mesh = {
             IconFadeInZoom = 100,
