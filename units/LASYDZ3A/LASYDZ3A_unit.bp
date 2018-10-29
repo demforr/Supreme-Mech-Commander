@@ -89,12 +89,12 @@ UnitBlueprint {
             Level5 = 0.2,
         },
     },
-    BuildIconSortPriority = 55,
+    BuildIconSortPriority = 25,
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
+        'BUILTBYTIER1FACTORY',
         'BUILTBYTIER2FACTORY',
-        'BUILTBYTIER3FACTORY',
         'LA',
         'MOBILE',
         'AIR',
@@ -260,7 +260,7 @@ UnitBlueprint {
     SizeY = 0.3,
     SizeZ = 1,
     StrategicIconName = 'icon_fighter2_directfire',
-    StrategicIconSortPriority = 55,
+    StrategicIconSortPriority = 25,
     Transport = {
         AirClass = true,
         TransportClass = 3,

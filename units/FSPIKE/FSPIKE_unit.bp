@@ -42,7 +42,7 @@ UnitBlueprint {
             Level5 = 0.2,
         },
     },
-    BuildIconSortPriority = 95,
+    BuildIconSortPriority = 60,
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
