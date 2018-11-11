@@ -125,8 +125,8 @@ UnitBlueprint {
         BuildRate = 20,
         BuildTime = 300,
         BuildableCategory = {
-            'BUILTBYTIER1FACTORY FS STRUCTURE NAVAL',
-            'BUILTBYTIER1FACTORY FS MOBILE NAVAL',
+            'BUILTBYTIER1FACTORY LA STRUCTURE NAVAL',
+            'BUILTBYTIER1FACTORY LA MOBILE NAVAL',
         },
         InitialRallyX = 0,
         InitialRallyZ = 10,

@@ -41,7 +41,7 @@ UnitBlueprint {
         'PRODUCTSC1',
         'SELECTABLE',
         'BUILTBYTIER2ENGINEER',
-        'LA',
+        'FS',
         'STRUCTURE',
         'DROPSHIP',
         'TECH2',
@@ -66,7 +66,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
     },
-    Description = '<LOC FSFACTORYDST2_desc>Federated Suns Air Factory',
+    Description = '<LOC FSFACTORYDST2_desc>Federated Suns Dropship Factory',
     Display = {
         -- Abilities = {
         --     '<LOC ability_upgradable>Upgradeable',
