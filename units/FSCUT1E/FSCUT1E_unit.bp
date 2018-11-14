@@ -116,7 +116,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 2572,
     },
-    Description = '<LOC FSCUT1E_desc>Cutlass Harrasser',
+    Description = '<LOC FSCUT1E_desc>Cutlass Pursuit Fighter',
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
@@ -224,7 +224,7 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'air',
         TechLevel = 'RULEUTL_Secret',
-        UnitName = '<LOC FSCUT1E_name>Cutlass CUT-01D',
+        UnitName = '<LOC FSCUT1E_name>Cutlass CUT-01E',
         UnitWeight = 1,
     },
     Intel = {
@@ -238,7 +238,7 @@ UnitBlueprint {
         VisionRadius = 22.5,
     },
     Interface = {
-        HelpText = '<LOC FSCUT1E_help>Cutlas Harrasser',
+        HelpText = '<LOC FSCUT1E_help>Cutlass Pursuit Fighter',
     },
     LifeBarHeight = 0.075,
     LifeBarOffset = 0.65,

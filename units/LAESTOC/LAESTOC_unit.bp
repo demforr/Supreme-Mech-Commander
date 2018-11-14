@@ -93,7 +93,6 @@ UnitBlueprint {
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
-        'BUILTBYTIER1FACTORY',
         'BUILTBYTIER2FACTORY',
         'LA',
         'MOBILE',

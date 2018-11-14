@@ -118,7 +118,7 @@ UnitBlueprint {
             '2x Light MG |-| Max: 180m',
         },
         #AnimationBuild = '/Mods/Supreme Mech Commander/units/FSJI50_Aopen.sca',
-        #AnimationBuildRate = 5,
+        #AnimationBuildRate = 15,
         Mesh = {
             IconFadeInZoom = 100,
             LODs = {
@@ -166,7 +166,7 @@ UnitBlueprint {
     Economy = {
         BuildCostEnergy = 462,
         BuildCostMass = 231,
-        BuildRate = 5,
+        BuildRate = 15,
         BuildTime = 200,
         BuildableCategory = {
             'BUILTBYTIER1ENGINEER UEF',
