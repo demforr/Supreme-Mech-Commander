@@ -63,7 +63,7 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
-            '1x Large Laser'
+            '1x Large Laser |-| Max: 450m'
         },
         Mesh = {
             IconFadeInZoom = 130,

@@ -100,9 +100,9 @@ UnitBlueprint {
             '<LOC ability_sonar>Sonar',
             '<LOC ability_submersible>Submersible',
             '<LOC ability_torpedo>Torpedoes',
-            '1x Large Laser',
-            '1x LRT20',
-            '2x SRT6',
+            '1x Large Laser |-| Max: 450m',
+            '1x LRT20 |-| Max: 690m',
+            '2x SRT6 |-| Max: 270m',
         },
         Mesh = {
             IconFadeInZoom = 130,

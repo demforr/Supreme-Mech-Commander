@@ -75,8 +75,8 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '<LOC ability_radar>Radar',
-            '2x AC20',
-            '3x SRM2',
+            '2x AC20 |-| Max: 270m',
+            '3x SRM2 |-| Max: 270m',
         },
         -- AnimationDeath = {
         --     {

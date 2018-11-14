@@ -98,7 +98,7 @@ UnitBlueprint {
         Abilities = {
             '<LOC ability_hover>Hover',
             '<LOC ability_amphibious>Amphibious',
-            '2x Clan Streak SRM6 [Range: 240m]',
+            '2x Clan Streak SRM6 |-| Max: 360m',
         },
         IdleEffects = {
             Land = {

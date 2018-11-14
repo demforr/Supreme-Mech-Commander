@@ -73,7 +73,7 @@ UnitBlueprint {
     Description = '<LOC LASRM_desc>SRM Carrier',
     Display = {
         Abilities = {
-            '10x SRM6',
+            '10x SRM6 |-| Max: 270m',
         },
         Mesh = {
             IconFadeInZoom = 100,

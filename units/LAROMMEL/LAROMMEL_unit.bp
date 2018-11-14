@@ -73,9 +73,9 @@ UnitBlueprint {
     Description = '<LOC LAROMMEL_desc>Rommel Tank',
     Display = {
         Abilities = {
-            '1x AC20',
-            '1x LRM5',
-            '1x SL',
+            '1x AC20 |-| Max: 270m',
+            '1x LRM5 |-| Min: 180m Max: 630m',
+            '1x SL |-| Max: 90m',
         },
         Mesh = {
             IconFadeInZoom = 100,

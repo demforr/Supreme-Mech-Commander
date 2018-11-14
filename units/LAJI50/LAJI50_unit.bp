@@ -115,7 +115,7 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '<LOC ability_engineeringsuite>Engineering Suite',
-            '2x Light Machinegun',
+            '2x Light Machinegun |-| Max: 180m',
         },
         Mesh = {
             IconFadeInZoom = 100,

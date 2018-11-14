@@ -64,6 +64,9 @@ UnitBlueprint {
     },
     Description = '<LOC LALONGTOM_desc>Long Tom Fixed Artillery',
     Display = {
+        Abilities = {
+            '1x Long Tom Artillery |-| Min 120m Max: 15300m',
+        },  
         Mesh = {
             IconFadeInZoom = 130,
             LODs = {

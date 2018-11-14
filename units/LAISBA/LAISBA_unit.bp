@@ -69,7 +69,7 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '<LOC ability_personalstealth>Personal Stealth',
-            '2x Machinegun',
+            '2x Machinegun |-| Max: 90m',
         },
         AnimationDeath = {
             {

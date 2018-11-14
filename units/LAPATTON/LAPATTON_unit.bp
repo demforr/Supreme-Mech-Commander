@@ -73,9 +73,9 @@ UnitBlueprint {
     Description = '<LOC LAPATTON_desc>Patton Tank',
     Display = {
         Abilities = {
-            '1x AC10',
-            '1x LRM5',
-            '1x SL',
+            '1x AC10 |-| Max: 450m',
+            '1x LRM5 |-| Min: 180m Max: 630m',
+            '1x SL |-| Max: 90m',
             '1x Flamer(Offline)'
         },
         Mesh = {

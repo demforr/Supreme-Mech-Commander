@@ -73,12 +73,12 @@ UnitBlueprint {
     Description = '<LOC LAVNLK65N_desc>Von Luckner',
     Display = {
         Abilities = {
-            '1x AC20',
-            '2x SRM6',
-            '1x SRM4',
-            '1x LRM10',
-            '1x Machine Gun',
-            '1x Flamer',
+            '1x AC20 |-| Max: 270m',
+            '2x SRM6 |-| Max: 270m',
+            '1x SRM4 |-| Max: 270m',
+            '1x LRM10 |-| Min: 180m Max: 630m',
+            '1x Machine Gun |-| Max: 90m',
+            '1x Flamer (Offline) |-| Max: 90m',
         },
         Mesh = {
             IconFadeInZoom = 100,

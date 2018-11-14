@@ -63,6 +63,7 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
+            '4x AC2 [Flak Ammo]|-| Min: 120 Max: 720m',
         },
         Mesh = {
             IconFadeInZoom = 130,

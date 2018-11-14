@@ -77,8 +77,8 @@ UnitBlueprint {
             'Intermediate Mech Sensor |-| 1410m Range',
             '<LOC ability_jamming>Jammer',
             'Guardian ECM Suite |-| 1570m Range',            
-            '1x LRM5 [Range: 0m]',
-            '2x Streak SRM6 [Range: 240m]',
+            '1x LRM5 |-| Min: 180m Max: 630m',
+            '2x Streak SRM6 |-| Max: 270m',
         },
         AnimationWalk = '/Mods/Supreme Mech Commander/units/LASTO4A/LASTO4A_walk.sca',
         AnimationWalkRate = 7,
@@ -128,7 +128,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        RadarRadius = 1410,
+        RadarRadius = 141,
         VisionRadius = 45,
         JamRadius = {
             Max = 157,

@@ -73,10 +73,10 @@ UnitBlueprint {
     Description = '<LOC LAMANTICORE_desc>Manticore Heavy Tank',
     Display = {
         Abilities = {
-            '1x PPC',
-            '1x LRM10',
-            '1x SRM6',
-            '1x ML',
+            '1x PPC |-| Min: 90m Max: 540m',
+            '1x LRM10 |-| Min: 180m Max: 630m',
+            '1x SRM6 |-| Max: 270m',
+            '1x Medium Laser |-| Max: 270m',
         },
         Mesh = {
             IconFadeInZoom = 100,

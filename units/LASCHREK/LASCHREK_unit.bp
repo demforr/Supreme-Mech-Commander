@@ -74,7 +74,7 @@ UnitBlueprint {
     Description = '<LOC LASCHREK_desc>Schrek PPC Carrier',
     Display = {
         Abilities = {
-            'T: 3x PPC Min:90m Max:540m',
+            '3x PPC |-| Min: 90m Max: 540m',
         },
         Mesh = {
             IconFadeInZoom = 100,

@@ -64,6 +64,9 @@ UnitBlueprint {
     },
     Description = '<LOC LALONGTOMCANNON_desc>Long Tom Cannon Turret',
     Display = {
+        Abilities = {
+            '1x Long Tom Cannon |-| Min 120m Max: 600m',
+        },
         Mesh = {
             IconFadeInZoom = 130,
             LODs = {

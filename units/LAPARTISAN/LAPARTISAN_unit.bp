@@ -76,7 +76,7 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
-            '4x AC5 [90m Min Range| 540m Max Range]',
+            '4x AC5 |-| Min: 90m Max: 540m',
         },
         Mesh = {
             IconFadeInZoom = 100,

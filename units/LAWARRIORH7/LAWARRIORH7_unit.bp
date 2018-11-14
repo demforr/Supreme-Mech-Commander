@@ -122,8 +122,8 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
-            '1x AC2',
-            '1x SRM4',
+            '1x AC2 |-| Min: 120m Max: 720m',
+            '1x SRM4 |-| Max: 270m',
         },
         AnimationLand = '/units/LAWARRIORH7/LAWARRIORH7_atakeoff01.sca',
         ForcedBuildSpin = 90,

@@ -52,7 +52,7 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '<LOC ability_radar>Radar',
-            'Building Sensor 700m Range',
+            'Building Sensor 1050m Range',
         },
         Mesh = {
             IconFadeInZoom = 130,

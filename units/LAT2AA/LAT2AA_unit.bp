@@ -60,6 +60,10 @@ UnitBlueprint {
     },
     Description = '<LOC LAT2AA_desc>Dual RAC/5 AA Turret',
     Display = {
+        Abilities = {
+            '<LOC ability_aa>Anti-Air',
+            '2x RAC5 [Flak Ammo]|-| Max: 450m',
+        },
         Mesh = {
             IconFadeInZoom = 130,
             LODs = {
