@@ -71,7 +71,7 @@ UnitBlueprint {
         SubThreatLevel = 424,
         SurfaceThreatLevel = 424,
     },
-    Description = '<LOC FSLCT1M_desc>Locust LCT-1M',
+    Description = '<LOC FSLCT1M_desc>20 Ton Light Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

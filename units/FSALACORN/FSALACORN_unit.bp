@@ -68,10 +68,10 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1850,
     },
-    Description = '<LOC FSALACORN_desc>100 Ton Assault Tank',
+    Description = '<LOC FSALACORN_desc>95 Ton Assault Tank',
     Display = {
         Abilities = {
-            'Turret: 3x Gause Rifle |-| Min: 90m Max: 660m',
+            '3x Gause Rifle |-| Min: 90m Max: 660m',
         },
         Mesh = {
             IconFadeInZoom = 100,

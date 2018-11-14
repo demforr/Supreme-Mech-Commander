@@ -72,7 +72,7 @@ UnitBlueprint {
         SurfaceThreatLevel = 2065,
         MaxTeleRange = 18,
     },
-    Description = '<LOC LAEMP6S_desc>Emperor EMP-6S',
+    Description = '<LOC LAEMP6S_desc>90 Ton Assault Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

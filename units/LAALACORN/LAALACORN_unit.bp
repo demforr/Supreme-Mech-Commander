@@ -68,7 +68,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1850,
     },
-    Description = '<LOC LAALACORN_desc>Alacorn Mk VI',
+    Description = '<LOC LAALACORN_desc>95 Ton Assault Tank',
     Display = {
         Abilities = {
             '3x Gauss Rifle |-| Min: 60m Max: 660m',

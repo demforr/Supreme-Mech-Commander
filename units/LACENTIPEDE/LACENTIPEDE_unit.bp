@@ -90,7 +90,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 271,
     },
-    Description = '<LOC LACENTIPEDE_desc>Centipede Scout Car',
+    Description = '<LOC LACENTIPEDE_desc>20 Ton Hover Vehicle',
     Display = {
         Abilities = {
             '<LOC ability_hover>Hover',
@@ -246,7 +246,7 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'amph',
         TechLevel = 'RULEUTL_Advanced',
-        UnitName = '<LOC LACENTIPEDE_name>Centipede',
+        UnitName = '<LOC LACENTIPEDE_name>Centipede Scout Car',
         UnitWeight = 1,
     },
     Intel = {

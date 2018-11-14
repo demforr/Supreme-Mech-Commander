@@ -73,7 +73,7 @@ UnitBlueprint {
         SubThreatLevel = 1085,
         SurfaceThreatLevel = 1085,
     },
-    Description = '<LOC SRKITFOX>Kit Fox Prime',
+    Description = '<LOC SRKITFOX>30 Ton Light Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

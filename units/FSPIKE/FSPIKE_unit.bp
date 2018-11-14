@@ -69,7 +69,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 648,
     },
-    Description = '<LOC FSPIKE_desc>Pike Desc',
+    Description = '<LOC FSPIKE_desc>60 Ton Support Tank',
     Display = {
         Abilities = {
             '3x AC/2 |-| Min: 120m Max: 720m',
@@ -147,14 +147,14 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'land',
         TechLevel = 'RULEUTL_Advanced',
-        UnitName = '<LOC FSPIKE_name>Pike unit name',
+        UnitName = '<LOC FSPIKE_name>Pike',
         UnitWeight = 1,
     },
     Intel = {
         VisionRadius = 37.5,
     },
     Interface = {
-        HelpText = '<LOC FSPIKE_help>Pike Help',
+        HelpText = '<LOC FSPIKE_help>Pike',
     },
     LifeBarHeight = 0.075,
     LifeBarOffset = 0.5,

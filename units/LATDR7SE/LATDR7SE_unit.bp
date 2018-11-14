@@ -69,7 +69,7 @@ UnitBlueprint {
         SubThreatLevel = 1809,
         SurfaceThreatLevel = 1809,
     },
-    Description = '<LOC LATDR7SE_desc>Thunderbolt TDR-7SE',
+    Description = '<LOC LATDR7SE_desc>75 Ton Heavy Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

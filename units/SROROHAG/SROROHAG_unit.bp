@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1492,
     },
-    Description = '<LOC SROROHAG_desc>Oro (HAG)',
+    Description = '<LOC SROROHAG_desc>60 Ton Heavy Tank',
     Display = {
         Abilities = {
             '1x HAG30 |-| Min: 60m Max: 720m',
@@ -156,7 +156,7 @@ UnitBlueprint {
         ToggleCaps = {
             RULEUTC_WeaponToggle = true,
         },
-        UnitName = '<LOC SROROHAG_name>60 Ton Heavy Tank',
+        UnitName = '<LOC SROROHAG_name>Oro HAG',
         UnitWeight = 1,
     },
     Intel = {

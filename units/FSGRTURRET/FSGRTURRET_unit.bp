@@ -31,7 +31,7 @@ UnitBlueprint {
             Level5 = 0.2,
         },
     },
-    BuildIconSortPriority = 120,
+    BuildIconSortPriority = 9,
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
@@ -60,7 +60,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
     },
-    Description = '<LOC FSGRTURRET_desc>Long Range Turret',
+    Description = '<LOC FSGRTURRET_desc>Medium Point Defense',
     Display = {
         Abilities = {
             '1x Gauss Rifle |-|Min:60m Max: 660m',

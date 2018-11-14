@@ -65,7 +65,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 81,
     },
-    Description = '<LOC FSISBA_desc>IS Battle Armor',
+    Description = '<LOC FSISBA_desc> Inner Sphere Standard',
     Display = {
         Abilities = {
             '<LOC ability_personalstealth>Personal Stealth',

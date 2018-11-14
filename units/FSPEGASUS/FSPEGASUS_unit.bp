@@ -92,7 +92,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 571,
     },
-    Description = '<LOC FSPEGASUS_desc>Scout Hover Tank',
+    Description = '<LOC FSPEGASUS_desc>35 Ton Scout Hover Tank',
     Display = {
         Abilities = {
             '<LOC ability_hover>Hover',

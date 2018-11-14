@@ -116,7 +116,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 4,
     },
-    Description = '<LOC LASYDZ3A_desc>Seydlitz SYD-Z3A',
+    Description = '<LOC LASYDZ3A_desc>Seydlitz Interceptor',
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
@@ -219,7 +219,7 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'air',
         TechLevel = 'RULEUTL_Secret',
-        UnitName = '<LOC LASYDZ3A_name>Seydlitz',
+        UnitName = '<LOC LASYDZ3A_name>Seydlitz SYD-Z3A',
         UnitWeight = 1,
     },
     Intel = {

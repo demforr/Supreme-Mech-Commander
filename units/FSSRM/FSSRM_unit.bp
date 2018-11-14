@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 816,
     },
-    Description = '<LOC FSSRM_desc>SRM Carrier',
+    Description = '<LOC FSSRM_desc>60 Ton Fire Support Vehicle',
     Display = {
         Abilities = {
             '10x SRM6 |-| Max: 270m',
@@ -155,7 +155,7 @@ UnitBlueprint {
         VisionRadius = 37.5,
     },
     Interface = {
-        HelpText = '<LOC FSSRM_help>RM Carrier',
+        HelpText = '<LOC FSSRM_help>SRM Carrier',
     },
     LifeBarHeight = 0.075,
     LifeBarOffset = 0.5,

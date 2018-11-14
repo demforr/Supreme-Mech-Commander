@@ -41,7 +41,7 @@ UnitBlueprint {
             Level5 = 0.2,
         },
     },
-    BuildIconSortPriority = 45,
+    BuildIconSortPriority = 50,
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 1041,
         SurfaceThreatLevel = 1041,
     },
-    Description = '<LOC LAHBK4G_desc>Hunchback HBK-4G',
+    Description = '<LOC LAHBK4G_desc>50 Ton Medium Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

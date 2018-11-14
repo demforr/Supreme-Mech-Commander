@@ -116,7 +116,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
     },
-    Description = '<LOC LAESTOC_desc>Eisensturm EST-OC',
+    Description = '<LOC LAESTOC_desc>Eisensturm Fighter',
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',

@@ -90,7 +90,7 @@ UnitBlueprint {
             Level5 = 2.5,
         },
     },
-    BuildIconSortPriority = 150,
+    BuildIconSortPriority = 2500,
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
@@ -119,7 +119,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 8,
     },
-    Description = '<LOC FDGAZELLE_desc>Gazelle 3055 Upgrade',
+    Description = '<LOC FDGAZELLE_desc>2500 Ton Vehicle Dropship',
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',

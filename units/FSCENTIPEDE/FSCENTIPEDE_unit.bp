@@ -90,7 +90,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 271,
     },
-    Description = '<LOC FSCENTIPEDE_desc>Centipede Scout Car',
+    Description = '<LOC FSCENTIPEDE_desc>20 Ton Hover Vehicle',
     Display = {
         Abilities = {
             '<LOC ability_hover>Hover',

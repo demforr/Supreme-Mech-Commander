@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 993,
     },
-    Description = '<LOC LAMANTICORE_desc>Manticore Heavy Tank',
+    Description = '<LOC LAMANTICORE_desc>60 Ton Heavy Tank',
     Display = {
         Abilities = {
             '1x PPC |-| Min: 90m Max: 540m',

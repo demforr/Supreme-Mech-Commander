@@ -42,7 +42,7 @@ UnitBlueprint {
             Level5 = 0.2,
         },
     },
-    BuildIconSortPriority = 50,
+    BuildIconSortPriority = 60,
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 833,
     },
-    Description = '<LOC LALRM_desc>LRM Carrier',
+    Description = '<LOC LALRM_desc>60 Ton Fire Support Vehicle',
     Display = {
         Abilities = {
             '3x LRM20 |-| Min: 180m Max: 630m',

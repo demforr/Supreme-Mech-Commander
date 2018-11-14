@@ -71,7 +71,7 @@ UnitBlueprint {
         SubThreatLevel = 3194,
         SurfaceThreatLevel = 3194,
     },
-    Description = '<LOC CLANWARHAWKPRIME>Warhawk Prime',
+    Description = '<LOC CLANWARHAWKPRIME>100 Ton Assault Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

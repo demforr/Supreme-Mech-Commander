@@ -67,7 +67,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1121,
     },
-    Description = '<LOC LAPILUM_desc>PILUM',
+    Description = '<LOC LAPILUM_desc>70 Ton Havy Tank',
     Display = {
         Abilities = {
             '2x LRM15 w/Artemis |-| Min: 180m Max: 630m',
@@ -146,7 +146,7 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'land',
         TechLevel = 'RULEUTL_Advanced',
-        UnitName = '<LOC LAPILUM_name>PILUM',
+        UnitName = '<LOC LAPILUM_name>Pilum',
         UnitWeight = 1,
     },
     Intel = {

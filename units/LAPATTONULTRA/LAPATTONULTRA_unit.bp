@@ -69,7 +69,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1162,
     },
-    Description = '<LOC LAPATTON_desc>Patton Tank',
+    Description = '<LOC LAPATTON_desc>65 Ton Heavy Tank',
     Display = {
         Abilities = {
             '1x UAC/10 |-| Max: 540m',

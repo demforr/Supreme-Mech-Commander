@@ -30,7 +30,7 @@ UnitBlueprint {
             Level5 = 0.2,
         },
     },
-    BuildIconSortPriority = 110,
+    BuildIconSortPriority = 11,
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
@@ -58,7 +58,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
     },
-    Description = '<LOC LAT2AA_desc>Dual RAC/5 AA Turret',
+    Description = '<LOC LAT2AA_desc>Heavy Flak Turret',
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',

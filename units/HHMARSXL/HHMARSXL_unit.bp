@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 605,
     },
-    Description = '<LOC HHMARSXL_desc>Mars XL Assault Vehicle',
+    Description = '<LOC HHMARSXL_desc>100 Ton Assault Vehicle',
     Display = {
         Abilities = {
             '<LOC ability_jamming>Jammer',
@@ -153,7 +153,7 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'land',
         TechLevel = 'RULEUTL_Basic',
-        UnitName = '<LOC HHMARSXL_name>Mars XL Assault Vehicle',
+        UnitName = '<LOC HHMARSXL_name>Mars XL',
         UnitWeight = 1,
     },
     Intel = {

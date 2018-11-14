@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 961,
     },
-    Description = '<LOC LAPATTON_desc>Patton Tank',
+    Description = '<LOC LAPATTON_desc>65 Ton Heavy Tank',
     Display = {
         Abilities = {
             '1x AC10 |-| Max: 450m',
@@ -157,7 +157,7 @@ UnitBlueprint {
         VisionRadius = 37.5,
     },
     Interface = {
-        HelpText = '<LOC LAPATTON_help>Patton Tank',
+        HelpText = '<LOC LAPATTON_help>Patton',
     },
     LifeBarHeight = 0.075,
     LifeBarOffset = 0.5,

@@ -73,7 +73,7 @@ UnitBlueprint {
         SubThreatLevel = 2073,
         SurfaceThreatLevel = 2073,
     },
-    Description = '<LOC SRSTORMCROWA>Stormcrow A',
+    Description = '<LOC SRSTORMCROWA>55 Ton Medium Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

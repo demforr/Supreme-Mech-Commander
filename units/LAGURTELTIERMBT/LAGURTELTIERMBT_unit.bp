@@ -72,7 +72,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 2125,
     },
-    Description = '<LOC LAGURTELTIERMBT_desc>Gurteltier MBT',
+    Description = '<LOC LAGURTELTIERMBT_desc>100 Ton Assault Tank',
     Display = {
         Abilities = {
             '<LOC ability_jamming>Jammer',

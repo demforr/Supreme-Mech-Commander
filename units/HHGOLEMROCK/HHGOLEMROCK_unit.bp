@@ -64,13 +64,13 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0.33,
     },
-    Description = '<LOC HHGOLEMROCK_desc>Rock Golem',
+    Description = '<LOC HHGOLEMROCK_desc>Hells Horses Battle Armor',
     Display = {
         Abilities = {
             '<LOC ability_engineeringsuite>Engineering Suite',
             '<LOC ability_personalstealth>Personal Stealth',
-            '2x Heavy Recoilless Rifles',
-            '1x SRM5',
+            '2x Heavy Recoilless Rifles |-| Max: 180m',
+            '1x SRM5|-| Max: 270m',
         },
         AnimationDeath = {
             {

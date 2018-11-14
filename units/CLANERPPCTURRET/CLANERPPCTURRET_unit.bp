@@ -108,7 +108,7 @@ UnitBlueprint {
         Icon = 'land',
         SelectionPriority = 5,
         TechLevel = 'RULEUTL_Advanced',
-        UnitName = '<LOC CLANERPPCTURRET_name>Dual Clan ERPPC Turret',
+        UnitName = '<LOC CLANERPPCTURRET_name> Dual Clan ERPPC Turret',
         UnitWeight = 1,
     },
     Intel = {

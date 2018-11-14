@@ -25,7 +25,7 @@ UnitBlueprint {
             Level5 = 0.2,
         },
     },
-    BuildIconSortPriority = 110,
+    BuildIconSortPriority = 10,
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
@@ -58,7 +58,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 426,
     },
-    Description = '<LOC FSCALI_desc>Defensive Turret',
+    Description = '<LOC FSCALI_desc>Heavy Point Defense',
     Display = {
         Abilities = {
             '2x LRM15 |-| Min: 180m Max: 630m',

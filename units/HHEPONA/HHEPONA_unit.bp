@@ -91,7 +91,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1477,
     },
-    Description = '<LOC HHEPONA_desc>Epona Pursuit Vehicle',
+    Description = '<LOC HHEPONA_desc>50 Ton Pursuit Vehicle',
     Display = {
         Abilities = {
             '<LOC ability_hover>Hover',

@@ -111,7 +111,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 231,
     },
-    Description = '<LOC CLANJI50_desc>Jifty JI-50 (LMG)',
+    Description = '<LOC CLANJI50_desc>60 Ton Engineering Vehicle',
     Display = {
         Abilities = {
             '<LOC ability_engineeringsuite>Engineering Suite',

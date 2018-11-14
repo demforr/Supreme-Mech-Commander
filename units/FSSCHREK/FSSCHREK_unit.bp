@@ -71,7 +71,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 935,
     },
-    Description = '<LOC FSSCHREK_desc>Schrek PPC Carrier',
+    Description = '<LOC FSSCHREK_desc>80 Ton Heavy Tank',
     Display = {
         Abilities = {
             '3x PPC |-| Min:90m Max:540m',

@@ -71,7 +71,7 @@ UnitBlueprint {
         SubThreatLevel = 2307,
         SurfaceThreatLevel = 2307,
     },
-    Description = '<LOC SRRIFLEMANIIC>Rifleman IIC',
+    Description = '<LOC SRRIFLEMANIIC>65 Ton Heavy Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 605,
     },
-    Description = '<LOC LABULLDOG_desc>Bulldog Medium Tank',
+    Description = '<LOC LABULLDOG_desc>60 Ton Medium Tank',
     Display = {
         Abilities = {
             '1x Large Laser |-| Max: 450m',

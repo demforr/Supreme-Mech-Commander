@@ -90,7 +90,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 544,
     },
-    Description = '<LOC FSJEDGAR_desc>J. Edgar Light Hover Tank',
+    Description = '<LOC FSJEDGAR_desc>25 Ton Light Hover Tank',
     Display = {
         Abilities = {
             '<LOC ability_hover>Hover',

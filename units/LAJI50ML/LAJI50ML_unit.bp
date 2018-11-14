@@ -110,7 +110,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 304,
     },
-    Description = '<LOC LAJI50ML_desc>Jifty JI-50 (ML)',
+    Description = '<LOC LAJI50ML_desc>60 Ton Engineering Vehicle',
     Display = {
         Abilities = {
             '<LOC ability_engineeringsuite>Engineering Suite',

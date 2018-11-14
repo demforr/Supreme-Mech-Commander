@@ -72,7 +72,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 673,
     },
-    Description = '<LOC LAPARTISAN_desc>Partisan Heavy Tank',
+    Description = '<LOC LAPARTISAN_desc>80 Ton Heavy Anti-Air Tank',
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
@@ -159,7 +159,7 @@ UnitBlueprint {
             RULEUTC_WeaponToggle = true,
         },
         TechLevel = 'RULEUTL_Basic',
-        UnitName = '<LOC LAPARTISAN_name>Partisan Heavy Tank',
+        UnitName = '<LOC LAPARTISAN_name>Partisan',
         UnitWeight = 1,
     },
     Intel = {

@@ -42,7 +42,7 @@ UnitBlueprint {
             Level5 = 0.2,
         },
     },
-    BuildIconSortPriority = 30,
+    BuildIconSortPriority = 75,
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
@@ -72,7 +72,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 45,
     },
-    Description = '<LOC FSMONITOR_desc>Monitor Description',
+    Description = '<LOC FSMONITOR_desc>75 Ton Patrol Craft',
     Display = {
         Abilities = {
             '<LOC ability_radar>Radar',
@@ -174,7 +174,7 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'sea',
         TechLevel = 'RULEUTL_Advanced',
-        UnitName = '<LOC FSMONITOR_name>Monitor Name',
+        UnitName = '<LOC FSMONITOR_name>Monitor',
         UnitWeight = 1,
     },
     Intel = {

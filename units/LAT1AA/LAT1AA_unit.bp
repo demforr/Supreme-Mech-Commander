@@ -30,7 +30,7 @@ UnitBlueprint {
             Level5 = 0.2,
         },
     },
-    BuildIconSortPriority = 120,
+    BuildIconSortPriority = 8,
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
@@ -59,7 +59,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
     },
-    Description = '<LOC LAT1AA_desc>Anti-Air Flak Artillery',
+    Description = '<LOC LAT1AA_desc>Light Flak Artillery',
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',

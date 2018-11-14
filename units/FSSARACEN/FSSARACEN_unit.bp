@@ -89,7 +89,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 571,
     },
-    Description = '<LOC FSSARACEN_desc>Saracen Medium Hover Tank',
+    Description = '<LOC FSSARACEN_desc>35 Ton Hover Tank',
     Display = {
         Abilities = {
             '<LOC ability_hover>Hover',

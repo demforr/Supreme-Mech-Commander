@@ -72,14 +72,14 @@ UnitBlueprint {
         SubThreatLevel = 2351,
         SurfaceThreatLevel = 2351,
     },
-    Description = '<LOC SRMADDOG>Mad Dog Prime',
+    Description = '<LOC SRMADDOG>60 Ton Heavy Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_engineeringsuite>Engineering Suite',
             '<LOC ability_radar>Radar',
             'Clan Standard Sensors |-| 1155m Range',
-            '2x Clan LRM |-| Max: 630m',
+            '2x Clan LRM20 |-| Max: 630m',
             '2x Clan Large Pulse Laser |-| Max: 690m',
             '2x Clan Medium Pulse Laser |-| Max: 360m',
         },

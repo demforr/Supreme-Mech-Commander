@@ -71,7 +71,7 @@ UnitBlueprint {
         SubThreatLevel = 2737,
         SurfaceThreatLevel = 2737,
     },
-    Description = '<LOC SRTIMBERWOLF>Timber Wolf Prime desc',
+    Description = '<LOC SRTIMBERWOLF>75 Ton Heavy Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',
@@ -141,7 +141,7 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'amph',
         TechLevel = 'RULEUTL_Basic',
-        UnitName = '<LOC SRTIMBERWOLF_name>Timber Wolf Prime name',
+        UnitName = '<LOC SRTIMBERWOLF_name>Timber Wolf Prime',
         UnitWeight = 1,
     },
     Intel = {

@@ -71,7 +71,7 @@ UnitBlueprint {
         SurfaceThreatLevel = 875,
         MaxTeleRange = 22,
     },
-    Description = '<LOC FSJR7D>Jenner JR7-D',
+    Description = '<LOC FSJR7D>35 Ton Light Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

@@ -73,7 +73,7 @@ UnitBlueprint {
         SubThreatLevel = 2615,
         SurfaceThreatLevel = 2615,
     },
-    Description = '<LOC SRKODIAK3>Kodiak 3',
+    Description = '<LOC SRKODIAK3>100 Ton Assault Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

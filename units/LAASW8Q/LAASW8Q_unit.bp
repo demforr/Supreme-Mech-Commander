@@ -72,7 +72,7 @@ UnitBlueprint {
         SubThreatLevel = 1605,
         SurfaceThreatLevel = 1605,
     },
-    Description = '<LOC LAASW8Q>Awesome ASW-8Q',
+    Description = '<LOC LAASW8Q>80 Ton Assault Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

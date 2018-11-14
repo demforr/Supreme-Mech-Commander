@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 1214,
         SurfaceThreatLevel = 1214,
     },
-    Description = '<LOC LAHOLLANDERII_desc>Hollander II BZK-F5',
+    Description = '<LOC LAHOLLANDERII_desc>45 Ton Medium Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

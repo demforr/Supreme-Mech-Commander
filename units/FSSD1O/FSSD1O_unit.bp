@@ -64,7 +64,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1747,
     },
-    Description = '<LOC FSSD1O_desc>Sunder SD1-O',
+    Description = '<LOC FSSD1O_desc>90 Ton Assault Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

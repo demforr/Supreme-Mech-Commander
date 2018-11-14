@@ -118,7 +118,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 4,
     },
-    Description = '<LOC CLANVISIGOTHB_desc>Visigoth B',
+    Description = '<LOC CLANVISIGOTHB_desc>Visigoth OmniFighter',
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',

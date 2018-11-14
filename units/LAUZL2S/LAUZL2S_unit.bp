@@ -72,7 +72,7 @@ UnitBlueprint {
         SurfaceThreatLevel = 1352,
         MaxTeleRange = 27,
     },
-    Description = '<LOC LAUZL2S_desc>Uziel UZL-2S',
+    Description = '<LOC LAUZL2S_desc>50 Ton Medium Recon Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',
@@ -136,7 +136,7 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'amph',
         TechLevel = 'RULEUTL_Basic',
-        UnitName = '<LOC LAUZL2S_name>Uziel',
+        UnitName = '<LOC LAUZL2S_name>Uziel UZL-2S',
         UnitWeight = 1,
     },
     Intel = {

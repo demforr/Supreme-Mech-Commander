@@ -70,7 +70,7 @@ UnitBlueprint {
         SurfaceThreatLevel = 1809,
         MaxTeleRange = 20,
     },
-    Description = '<LOC FSTDR7SE_desc>Thunderbolt TDR-7SE',
+    Description = '<LOC FSTDR7SE_desc>75 Ton Heavy Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

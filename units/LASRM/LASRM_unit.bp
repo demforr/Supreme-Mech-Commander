@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 816,
     },
-    Description = '<LOC LASRM_desc>SRM Carrier',
+    Description = '<LOC LASRM_desc>60 Ton Fire Support Vehicle',
     Display = {
         Abilities = {
             '10x SRM6 |-| Max: 270m',

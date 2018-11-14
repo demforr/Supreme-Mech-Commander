@@ -41,7 +41,7 @@ UnitBlueprint {
             Level5 = 0.2,
         },
     },
-    BuildIconSortPriority = 65,
+    BuildIconSortPriority = 80,
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 1589,
         SurfaceThreatLevel = 1589,
     },
-    Description = '<LOC PPR5T_desc>Salamander PPR-5T',
+    Description = '<LOC PPR5T_desc>80 Ton Assault Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

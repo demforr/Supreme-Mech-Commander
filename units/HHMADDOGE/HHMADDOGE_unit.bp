@@ -72,7 +72,7 @@ UnitBlueprint {
         SubThreatLevel = 2031,
         SurfaceThreatLevel = 2031,
     },
-    Description = '<LOC HHMADDOGE>Mad Dog E',
+    Description = '<LOC HHMADDOGE>60 Ton Heavy Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

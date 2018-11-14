@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1001,
     },
-    Description = '<LOC FSVNLK100_desc>Von Luckner Heavy Tank',
+    Description = '<LOC FSVNLK100_desc>75 Ton Heavy Tank',
     Display = {
         Abilities = {
             '2x AC20 |-| Max: 270m',
@@ -148,7 +148,7 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'land',
         TechLevel = 'RULEUTL_Basic',
-        UnitName = '<LOC FSVNLK100_name>VNL-K100',
+        UnitName = '<LOC FSVNLK100_name>Von Luckner VNL-K100',
         UnitWeight = 1,
     },
     Intel = {

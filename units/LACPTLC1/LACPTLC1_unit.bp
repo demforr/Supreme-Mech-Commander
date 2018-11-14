@@ -71,7 +71,7 @@ UnitBlueprint {
         SubThreatLevel = 1399,
         SurfaceThreatLevel = 1399,
     },
-    Description = '<LOC LACPTLC1_desc>Catapult CPTL-C1',
+    Description = '<LOC LACPTLC1_desc>65 Ton Heavy Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

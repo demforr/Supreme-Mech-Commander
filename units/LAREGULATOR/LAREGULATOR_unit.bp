@@ -89,7 +89,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 544,
     },
-    Description = '<LOC LAREGULATOR_desc>Regulator Hovertank',
+    Description = '<LOC LAREGULATOR_desc>45 Ton Hovertank',
     Display = {
         Abilities = {
             '<LOC ability_hover>Hover',

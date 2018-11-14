@@ -119,7 +119,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 4,
     },
-    Description = '<LOC CLANKIRGHIZB_desc>Kirghiz B',
+    Description = '<LOC CLANKIRGHIZB_desc>Kirghiz OmniFighter',
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',

@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 564,
     },
-    Description = '<LOC LASTRIKERLT_desc>Striker Light Tank',
+    Description = '<LOC LASTRIKERLT_desc>35 Ton Light Tank',
     Display = {
         Abilities = {
             '1x LRM10 |-| Min: 180m Max: 630m',
@@ -131,7 +131,7 @@ UnitBlueprint {
         FactionName = 'UEF',
         Icon = 'land',
         TechLevel = 'RULEUTL_Basic',
-        UnitName = '<LOC LASTRIKERLT_name>Striker Light Tank',
+        UnitName = '<LOC LASTRIKERLT_name>Striker',
         UnitWeight = 1,
     },
     Intel = {

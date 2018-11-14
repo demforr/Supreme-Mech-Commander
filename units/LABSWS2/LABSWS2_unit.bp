@@ -71,7 +71,7 @@ UnitBlueprint {
         SubThreatLevel = 1223,
         SurfaceThreatLevel = 1223,
     },
-    Description = '<LOC LABSWS2_desc>Bushwacker BSW-S2',
+    Description = '<LOC LABSWS2_desc>55 Ton Medium Mech',
     Display = {
         Abilities = {
             '<LOC ability_shielddome>Shield Dome',

@@ -71,7 +71,7 @@ UnitBlueprint {
         SubThreatLevel = 710,
         SurfaceThreatLevel = 710,
     },
-    Description = '<LOC FSRVN3L>Raven RVN-3L',
+    Description = '<LOC FSRVN3L>35 Ton Recon Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

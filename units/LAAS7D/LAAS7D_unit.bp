@@ -71,7 +71,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1897,
     },
-    Description = '<LOC LAAS7D_desc>Atlas AS7-D',
+    Description = '<LOC LAAS7D_desc>100 Ton Assault Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

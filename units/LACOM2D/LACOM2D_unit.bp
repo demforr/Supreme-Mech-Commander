@@ -72,7 +72,7 @@ UnitBlueprint {
         SubThreatLevel = 541,
         SurfaceThreatLevel = 541,
     },
-    Description = '<LOC LACOM2D_desc>Commando COM-2D',
+    Description = '<LOC LACOM2D_desc>25 Ton Light Mech',
     Display = {
         Abilities = {
             '<LOC ability_amphibious>Amphibious',

@@ -89,7 +89,7 @@ UnitBlueprint {
             Level5 = 2.5,
         },
     },
-    BuildIconSortPriority = 150,
+    BuildIconSortPriority = 1900,
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
@@ -118,7 +118,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 8,
     },
-    Description = '<LOC FDLEOPARDDS_desc>Leopard 3056 Upgrade',
+    Description = '<LOC FDLEOPARDDS_desc>1900 Ton Mech Dropship',
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',

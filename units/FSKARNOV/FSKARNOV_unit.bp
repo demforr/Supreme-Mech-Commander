@@ -119,7 +119,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 152,
     },
-    Description = '<LOC FSKARNOV_desc>Karnov Air Transport',
+    Description = '<LOC FSKARNOV_desc>Battle Armor Air Transport',
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',

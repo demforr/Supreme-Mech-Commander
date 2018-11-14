@@ -42,7 +42,7 @@ UnitBlueprint {
             Level5 = 0.2,
         },
     },
-    BuildIconSortPriority = 65,
+    BuildIconSortPriority = 25,
     Categories = {
         'PRODUCTSC1',
         'SELECTABLE',
@@ -70,7 +70,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 306,
     },
-    Description = '<LOC FSSCORPIONLT_desc>Scorpion Light Tank',
+    Description = '<LOC FSSCORPIONLT_desc>25 Ton Light Tank',
     Display = {
         Abilities = {
             '1x AC5 |-| Min: 90m Max: 540m',
