@@ -96,6 +96,7 @@ UnitBlueprint {
             'BUILTBYTIER2FACTORY FS STRUCTURE LAND MECH',
             'BUILTBYTIER2FACTORY FS MOBILE LAND MECH',
             'BUILTBYLANDTIER2FACTORY FS MOBILE CONSTRUCTION MECH',
+            'BUILTBYTIER2FACTORY FS MOBILE LAND BA',
         },
         StorageEnergy = 0,
         StorageMass = 160,

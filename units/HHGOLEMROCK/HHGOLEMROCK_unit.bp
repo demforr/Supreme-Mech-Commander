@@ -53,6 +53,7 @@ UnitBlueprint {
         'RECLAIMABLE',
         'BOT',
         'OVERLAYDIRECTFIRE',
+        'BA',
     },
     Defense = {
         AirThreatLevel = 0,

@@ -62,6 +62,7 @@ UnitBlueprint {
         'PATROLHELPER',
         'BOT',
         'OVERLAYDIRECTFIRE',
+        'BA',
     },
     Defense = {
         AirThreatLevel = 0,

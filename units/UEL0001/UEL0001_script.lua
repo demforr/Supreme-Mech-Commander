@@ -197,102 +197,102 @@ UEL0001 = Class(AAirUnit) {
             if not bp then return end
             local cat = ParseEntityCategory(bp.BuildableCategoryAdds)
             self:RemoveBuildRestriction(cat)
-#        elseif enh =='AdvancedEngineeringRemove' then
-#            local bp = self:GetBlueprint().Economy.BuildRate
-#            if not bp then return end
-#            self:RestoreBuildRestrictions()
-#            self:AddBuildRestriction( categories.FS * (categories.BUILTBYTIER1FACTORY + categories.BUILTBYTIER2FACTORY + categories.MOBILE + categories.LAND) )
-#            if Buff.HasBuff( self, 'CybranACUT2BuildRate' ) then
-#                Buff.RemoveBuff( self, 'CybranACUT2BuildRate' )
-#            end
-        elseif enh =='SnowRavenCommand' then
-            local bp = self:GetBlueprint().Enhancements[enh]
-            if not bp then return end
-            local cat = ParseEntityCategory(bp.BuildableCategoryAdds)
-            self:RemoveBuildRestriction(cat)
-            local bpEcon = self:GetBlueprint().Economy
-            if not bp then return end
-            self:SetProductionPerSecondEnergy(bp.ProductionPerSecondEnergy + bpEcon.ProductionPerSecondEnergy or 0)
-            self:SetProductionPerSecondMass(bp.ProductionPerSecondMass + bpEcon.ProductionPerSecondMass or 0)
-            if not Buffs['SRBuildRate'] then
-                BuffBlueprint {
-                    Name = 'SRBuildRate',
-                    DisplayName = 'SRBuildRate',
-                    BuffType = 'ACUBUILDRATE',
-                    Stacks = 'REPLACE',
-                    Duration = -1,
-                    Affects = {
-                        BuildRate = {
-                            Add =  bp.NewBuildRate - self:GetBlueprint().Economy.BuildRate,
-                            Mult = 1,
-                        },
-                    },
-                }
-            end
-            Buff.ApplyBuff(self, 'SRBuildRate')
-        elseif enh =='SnowRavenCommandUpgrade' then
-            local bp = self:GetBlueprint().Enhancements[enh]
-            if not bp then return end
-            local cat = ParseEntityCategory(bp.BuildableCategoryAdds)
-            self:RemoveBuildRestriction(cat)
-            local bpEcon = self:GetBlueprint().Economy
-            if not bp then return end
-            self:SetProductionPerSecondEnergy(bp.ProductionPerSecondEnergy + bpEcon.ProductionPerSecondEnergy or 0)
-            self:SetProductionPerSecondMass(bp.ProductionPerSecondMass + bpEcon.ProductionPerSecondMass or 0)
-            if not Buffs['SRBuildRate2'] then
-                BuffBlueprint {
-                    Name = 'SRBuildRate2',
-                    DisplayName = 'SRBuildRate2',
-                    BuffType = 'ACUBUILDRATE',
-                    Stacks = 'REPLACE',
-                    Duration = -1,
-                    Affects = {
-                        BuildRate = {
-                            Add =  bp.NewBuildRate - self:GetBlueprint().Economy.BuildRate,
-                            Mult = 1,
-                        },
-                    },
-                }
-            end
-            Buff.ApplyBuff(self, 'SRBuildRate2')
+-- #        elseif enh =='AdvancedEngineeringRemove' then
+-- #            local bp = self:GetBlueprint().Economy.BuildRate
+-- #            if not bp then return end
+-- #            self:RestoreBuildRestrictions()
+-- #            self:AddBuildRestriction( categories.FS * (categories.BUILTBYTIER1FACTORY + categories.BUILTBYTIER2FACTORY + categories.MOBILE + categories.LAND) )
+-- #            if Buff.HasBuff( self, 'CybranACUT2BuildRate' ) then
+-- #                Buff.RemoveBuff( self, 'CybranACUT2BuildRate' )
+-- #            end
+        -- elseif enh =='SnowRavenCommand' then
+        --     local bp = self:GetBlueprint().Enhancements[enh]
+        --     if not bp then return end
+        --     local cat = ParseEntityCategory(bp.BuildableCategoryAdds)
+        --     self:RemoveBuildRestriction(cat)
+        --     local bpEcon = self:GetBlueprint().Economy
+        --     if not bp then return end
+        --     self:SetProductionPerSecondEnergy(bp.ProductionPerSecondEnergy + bpEcon.ProductionPerSecondEnergy or 0)
+        --     self:SetProductionPerSecondMass(bp.ProductionPerSecondMass + bpEcon.ProductionPerSecondMass or 0)
+        --     if not Buffs['SRBuildRate'] then
+        --         BuffBlueprint {
+        --             Name = 'SRBuildRate',
+        --             DisplayName = 'SRBuildRate',
+        --             BuffType = 'ACUBUILDRATE',
+        --             Stacks = 'REPLACE',
+        --             Duration = -1,
+        --             Affects = {
+        --                 BuildRate = {
+        --                     Add =  bp.NewBuildRate - self:GetBlueprint().Economy.BuildRate,
+        --                     Mult = 1,
+        --                 },
+        --             },
+        --         }
+        --     end
+        --     Buff.ApplyBuff(self, 'SRBuildRate')
+        -- elseif enh =='SnowRavenCommandUpgrade' then
+        --     local bp = self:GetBlueprint().Enhancements[enh]
+        --     if not bp then return end
+        --     local cat = ParseEntityCategory(bp.BuildableCategoryAdds)
+        --     self:RemoveBuildRestriction(cat)
+        --     local bpEcon = self:GetBlueprint().Economy
+        --     if not bp then return end
+        --     self:SetProductionPerSecondEnergy(bp.ProductionPerSecondEnergy + bpEcon.ProductionPerSecondEnergy or 0)
+        --     self:SetProductionPerSecondMass(bp.ProductionPerSecondMass + bpEcon.ProductionPerSecondMass or 0)
+        --     if not Buffs['SRBuildRate2'] then
+        --         BuffBlueprint {
+        --             Name = 'SRBuildRate2',
+        --             DisplayName = 'SRBuildRate2',
+        --             BuffType = 'ACUBUILDRATE',
+        --             Stacks = 'REPLACE',
+        --             Duration = -1,
+        --             Affects = {
+        --                 BuildRate = {
+        --                     Add =  bp.NewBuildRate - self:GetBlueprint().Economy.BuildRate,
+        --                     Mult = 1,
+        --                 },
+        --             },
+        --         }
+        --     end
+        --     Buff.ApplyBuff(self, 'SRBuildRate2')
         elseif enh =='ClanCommand' then
             local bp = self:GetBlueprint().Enhancements[enh]
             if not bp then return end
             local cat = ParseEntityCategory(bp.BuildableCategoryAdds)
             self:RemoveBuildRestriction(cat)
-#        elseif enh =='ClanCommand' then
-#            local bp = self:GetBlueprint().Enhancements[enh]
-#            if not bp then return end
-#            local cat = ParseEntityCategory(bp.BuildableCategoryAdds)
-#            self:RemoveBuildRestriction(cat)
-#            local bpEcon = self:GetBlueprint().Economy
-#            if not bp then return end
-#            self:SetProductionPerSecondEnergy(bp.ProductionPerSecondEnergy + bpEcon.ProductionPerSecondEnergy or 0)
-#            self:SetProductionPerSecondMass(bp.ProductionPerSecondMass + bpEcon.ProductionPerSecondMass or 0)
-#            if not Buffs['HHBuildRate'] then
-#                BuffBlueprint {
-#                    Name = 'HHBuildRate',
-#                    DisplayName = 'HHBuildRate',
-#                    BuffType = 'ACUBUILDRATE',
-#                    Stacks = 'REPLACE',
-#                    Duration = -1,
-#                    Affects = {
-#                        BuildRate = {
-#                            Add =  bp.NewBuildRate - self:GetBlueprint().Economy.BuildRate,
-#                            Mult = 1,
-#                        },
-#                    },
-#                }
-#            end
-#            Buff.ApplyBuff(self, 'HHBuildRate')
-#        elseif enh =='UEFCommandRemove' then
-#            local bp = self:GetBlueprint().Economy.BuildRate
-#            if not bp then return end
-#            self:RestoreBuildRestrictions()
-#            self:AddBuildRestriction( categories.UEF * (categories.BUILTBYTIER1FACTORY + categories.BUILTBYTIER2FACTORY + categories.MOBILE + categories.LAND) )
-#            if Buff.HasBuff( self, 'CybranACUT2BuildRate' ) then
-#                Buff.RemoveBuff( self, 'CybranACUT2BuildRate' )
-#            end
+-- #        elseif enh =='ClanCommand' then
+-- #            local bp = self:GetBlueprint().Enhancements[enh]
+-- #            if not bp then return end
+-- #            local cat = ParseEntityCategory(bp.BuildableCategoryAdds)
+-- #            self:RemoveBuildRestriction(cat)
+-- #            local bpEcon = self:GetBlueprint().Economy
+-- #            if not bp then return end
+-- #            self:SetProductionPerSecondEnergy(bp.ProductionPerSecondEnergy + bpEcon.ProductionPerSecondEnergy or 0)
+-- #            self:SetProductionPerSecondMass(bp.ProductionPerSecondMass + bpEcon.ProductionPerSecondMass or 0)
+-- #            if not Buffs['HHBuildRate'] then
+-- #                BuffBlueprint {
+-- #                    Name = 'HHBuildRate',
+-- #                    DisplayName = 'HHBuildRate',
+-- #                    BuffType = 'ACUBUILDRATE',
+-- #                    Stacks = 'REPLACE',
+-- #                    Duration = -1,
+-- #                    Affects = {
+-- #                        BuildRate = {
+-- #                            Add =  bp.NewBuildRate - self:GetBlueprint().Economy.BuildRate,
+-- #                            Mult = 1,
+-- #                        },
+-- #                    },
+-- #                }
+-- #            end
+-- #            Buff.ApplyBuff(self, 'HHBuildRate')
+-- #        elseif enh =='UEFCommandRemove' then
+-- #            local bp = self:GetBlueprint().Economy.BuildRate
+-- #            if not bp then return end
+-- #            self:RestoreBuildRestrictions()
+-- #            self:AddBuildRestriction( categories.UEF * (categories.BUILTBYTIER1FACTORY + categories.BUILTBYTIER2FACTORY + categories.MOBILE + categories.LAND) )
+-- #            if Buff.HasBuff( self, 'CybranACUT2BuildRate' ) then
+-- #                Buff.RemoveBuff( self, 'CybranACUT2BuildRate' )
+-- #            end
         end             
     end,  
 }
