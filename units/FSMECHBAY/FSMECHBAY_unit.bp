@@ -123,7 +123,7 @@ UnitBlueprint {
         },
         SelectionPriority = 5,
         TechLevel = 'RULEUTL_Advanced',
-        UnitName = '<LOC FSMECHBAY_name>Mech Repair Bay',
+        -- UnitName = '<LOC FSMECHBAY_name>Mech Repair Bay',
         UnitWeight = 1,
     },
     Interface = {

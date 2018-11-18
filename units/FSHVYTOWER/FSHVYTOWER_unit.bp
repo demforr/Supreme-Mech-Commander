@@ -111,7 +111,6 @@ UnitBlueprint {
         ToggleCaps = {
             RULEUTC_IntelToggle = true,
         },
-        UnitName = '<LOC FSHVYTOWER_name>Heavy Turret Control Tower',
         UnitWeight = 1,
     },
     Intel = {

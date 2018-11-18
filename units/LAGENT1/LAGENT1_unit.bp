@@ -52,7 +52,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
     },
-    Description = '<LOC LAGENT1_desc>LA T1 Power Generator',
+    Description = '<LOC LAGENT1_desc>Auxiliary Power Generator',
     Display = {
         Abilities = {
             '<LOC ability_deathaoe>Volatile',
@@ -74,7 +74,7 @@ UnitBlueprint {
         AdjacentStructureEnergyMod = -2,
         BuildCostEnergy = 4581,
         BuildCostMass = 451,
-        BuildTime = 700,
+        BuildTime = 500,
         ProductionPerSecondEnergy = 150,
         RebuildBonusIds = {
             'FSGENT1',
