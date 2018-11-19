@@ -90,7 +90,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 411,
     },
-    Description = '<LOC FSHARASSER_desc>Harasser Hover Tank',
+    Description = '<LOC FSHARASSER_desc>25 Ton Hover Tank',
     Display = {
         Abilities = {
             '<LOC ability_hover>Hover',
