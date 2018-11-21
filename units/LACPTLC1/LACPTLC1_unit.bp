@@ -70,6 +70,7 @@ UnitBlueprint {
         RegenRate = 0,
         SubThreatLevel = 1399,
         SurfaceThreatLevel = 1399,
+        MaxTeleRange = 9,
     },
     Description = '<LOC LACPTLC1_desc>65 Ton Heavy Mech',
     Display = {
